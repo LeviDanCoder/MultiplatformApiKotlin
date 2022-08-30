@@ -238,6 +238,14 @@ __attribute__((swift_name("Response2.Companion")))
 @end;
 
 __attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("TestExpectClass")))
+@interface KATTestExpectClass : KATBase
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+@property (readonly) NSString *platform __attribute__((swift_name("platform")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("ApplicationApiKt")))
 @interface KATApplicationApiKt : KATBase
 + (KATKtor_client_coreHttpClient *)getClient __attribute__((swift_name("getClient()")));
