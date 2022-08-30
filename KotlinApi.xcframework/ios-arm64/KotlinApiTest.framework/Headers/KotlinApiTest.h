@@ -176,6 +176,14 @@ __attribute__((swift_name("IosApplicationApi")))
 @end;
 
 __attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("IosTestApp")))
+@interface KATIosTestApp : KATBase
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (NSString *)test __attribute__((swift_name("test()")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Platform")))
 @interface KATPlatform : KATBase
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
