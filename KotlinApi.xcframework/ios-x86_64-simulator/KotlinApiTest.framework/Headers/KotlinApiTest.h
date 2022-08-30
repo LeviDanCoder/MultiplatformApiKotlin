@@ -6,9 +6,9 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSValue.h>
 
-@class KATResponseCompanion, KATResponse, KATResponse2Companion, KATResponse2, KATKotlinx_serialization_jsonJson, KATKotlinThrowable, KATKotlinArray<T>, KATKotlinException, KATKotlinRuntimeException, KATKotlinIllegalStateException, KATKtor_client_coreHttpRequestData, KATKtor_client_coreHttpResponseData, KATKtor_client_coreHttpClient, KATKtor_client_coreHttpClientEngineConfig, KATKotlinx_coroutines_coreCoroutineDispatcher, KATKotlinx_serialization_coreSerializersModule, KATKotlinx_serialization_jsonJsonDefault, KATKotlinx_serialization_jsonJsonElement, KATKotlinx_serialization_jsonJsonConfiguration, KATKotlinx_serialization_coreSerialKind, KATKotlinNothing, KATKtor_httpUrl, KATKtor_httpHttpMethod, KATKtor_httpOutgoingContent, KATKtor_httpHttpStatusCode, KATKtor_utilsGMTDate, KATKtor_httpHttpProtocolVersion, KATKtor_client_coreHttpClientConfig<T>, KATKtor_eventsEvents, KATKtor_client_coreHttpReceivePipeline, KATKtor_client_coreHttpRequestPipeline, KATKtor_client_coreHttpResponsePipeline, KATKtor_client_coreHttpSendPipeline, KATKtor_client_coreProxyConfig, KATKotlinAbstractCoroutineContextElement, KATKotlinx_coroutines_coreCoroutineDispatcherKey, KATKotlinx_serialization_jsonJsonElementCompanion, KATKtor_httpUrlCompanion, KATKtor_httpURLProtocol, KATKtor_httpHttpMethodCompanion, KATKtor_utilsAttributeKey<T>, KATKtor_httpContentType, KATKotlinCancellationException, KATKtor_httpHttpStatusCodeCompanion, KATKtor_utilsGMTDateCompanion, KATKtor_utilsWeekDay, KATKtor_utilsMonth, KATKtor_httpHttpProtocolVersionCompanion, KATKtor_eventsEventDefinition<T>, KATKtor_utilsPipelinePhase, KATKtor_utilsPipeline<TSubject, TContext>, KATKtor_client_coreHttpReceivePipelinePhases, KATKtor_client_coreHttpResponse, KATKotlinUnit, KATKtor_client_coreHttpRequestPipelinePhases, KATKtor_client_coreHttpRequestBuilder, KATKtor_client_coreHttpResponsePipelinePhases, KATKtor_client_coreHttpResponseContainer, KATKtor_client_coreHttpClientCall, KATKtor_client_coreHttpSendPipelinePhases, KATKotlinAbstractCoroutineContextKey<B, E>, KATKtor_httpURLProtocolCompanion, KATKtor_httpHeaderValueParam, KATKtor_httpHeaderValueWithParametersCompanion, KATKtor_httpHeaderValueWithParameters, KATKtor_httpContentTypeCompanion, KATKotlinEnumCompanion, KATKotlinEnum<E>, KATKtor_utilsWeekDayCompanion, KATKtor_utilsMonthCompanion, KATKtor_httpHeadersBuilder, KATKtor_client_coreHttpRequestBuilderCompanion, KATKtor_httpURLBuilder, KATKtor_utilsTypeInfo, KATKtor_client_coreHttpClientCallCompanion, KATKotlinx_coroutines_coreAtomicDesc, KATKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp, KATKtor_ioMemory, KATKtor_ioChunkBuffer, KATKotlinByteArray, KATKtor_ioBuffer, KATKtor_ioByteReadPacket, KATKtor_utilsStringValuesBuilderImpl, KATKtor_httpURLBuilderCompanion, KATKotlinx_coroutines_coreAtomicOp<__contravariant T>, KATKotlinx_coroutines_coreOpDescriptor, KATKotlinx_coroutines_coreLockFreeLinkedListNode, KATKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc, KATKtor_ioMemoryCompanion, KATKtor_ioBufferCompanion, KATKtor_ioChunkBufferCompanion, KATKotlinByteIterator, KATKtor_ioInputCompanion, KATKtor_ioInput, KATKtor_ioByteReadPacketCompanion, KATKotlinKTypeProjection, KATKotlinx_coroutines_coreLockFreeLinkedListNodeAddLastDesc<T>, KATKotlinx_coroutines_coreLockFreeLinkedListNodeRemoveFirstDesc<T>, KATKotlinKVariance, KATKotlinKTypeProjectionCompanion;
+@class KATResponseCompanion, KATResponse, KATResponse2Companion, KATResponse2, KATKtor_client_coreHttpClient, KATKtor_httpUrl, KATKotlinx_serialization_jsonJson, KATKotlinThrowable, KATKotlinArray<T>, KATKotlinException, KATKotlinRuntimeException, KATKotlinIllegalStateException, KATKtor_client_coreHttpClientEngineConfig, KATKtor_client_coreHttpClientConfig<T>, KATKtor_eventsEvents, KATKtor_client_coreHttpReceivePipeline, KATKtor_client_coreHttpRequestPipeline, KATKtor_client_coreHttpResponsePipeline, KATKtor_client_coreHttpSendPipeline, KATKtor_httpUrlCompanion, KATKtor_httpURLProtocol, KATKotlinx_serialization_coreSerializersModule, KATKotlinx_serialization_jsonJsonDefault, KATKotlinx_serialization_jsonJsonElement, KATKotlinx_serialization_jsonJsonConfiguration, KATKtor_client_coreHttpRequestData, KATKtor_client_coreHttpResponseData, KATKotlinx_coroutines_coreCoroutineDispatcher, KATKotlinx_serialization_coreSerialKind, KATKotlinNothing, KATKtor_client_coreProxyConfig, KATKtor_utilsAttributeKey<T>, KATKtor_eventsEventDefinition<T>, KATKtor_utilsPipelinePhase, KATKtor_utilsPipeline<TSubject, TContext>, KATKtor_client_coreHttpReceivePipelinePhases, KATKtor_client_coreHttpResponse, KATKotlinUnit, KATKtor_client_coreHttpRequestPipelinePhases, KATKtor_client_coreHttpRequestBuilder, KATKtor_client_coreHttpResponsePipelinePhases, KATKtor_client_coreHttpResponseContainer, KATKtor_client_coreHttpClientCall, KATKtor_client_coreHttpSendPipelinePhases, KATKtor_httpURLProtocolCompanion, KATKotlinx_serialization_jsonJsonElementCompanion, KATKtor_httpHttpMethod, KATKtor_httpOutgoingContent, KATKtor_httpHttpStatusCode, KATKtor_utilsGMTDate, KATKtor_httpHttpProtocolVersion, KATKotlinAbstractCoroutineContextElement, KATKotlinx_coroutines_coreCoroutineDispatcherKey, KATKtor_httpHeadersBuilder, KATKtor_client_coreHttpRequestBuilderCompanion, KATKtor_httpURLBuilder, KATKtor_utilsTypeInfo, KATKtor_client_coreHttpClientCallCompanion, KATKtor_httpHttpMethodCompanion, KATKtor_httpContentType, KATKotlinCancellationException, KATKtor_httpHttpStatusCodeCompanion, KATKtor_utilsGMTDateCompanion, KATKtor_utilsWeekDay, KATKtor_utilsMonth, KATKtor_httpHttpProtocolVersionCompanion, KATKotlinAbstractCoroutineContextKey<B, E>, KATKtor_ioMemory, KATKtor_ioChunkBuffer, KATKotlinByteArray, KATKtor_ioBuffer, KATKtor_ioByteReadPacket, KATKtor_utilsStringValuesBuilderImpl, KATKtor_httpURLBuilderCompanion, KATKtor_httpHeaderValueParam, KATKtor_httpHeaderValueWithParametersCompanion, KATKtor_httpHeaderValueWithParameters, KATKtor_httpContentTypeCompanion, KATKotlinEnumCompanion, KATKotlinEnum<E>, KATKtor_utilsWeekDayCompanion, KATKtor_utilsMonthCompanion, KATKtor_ioMemoryCompanion, KATKtor_ioBufferCompanion, KATKtor_ioChunkBufferCompanion, KATKotlinByteIterator, KATKtor_ioInputCompanion, KATKtor_ioInput, KATKtor_ioByteReadPacketCompanion, KATKotlinKTypeProjection, KATKotlinx_coroutines_coreAtomicDesc, KATKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp, KATKotlinKVariance, KATKotlinKTypeProjectionCompanion, KATKotlinx_coroutines_coreAtomicOp<__contravariant T>, KATKotlinx_coroutines_coreOpDescriptor, KATKotlinx_coroutines_coreLockFreeLinkedListNode, KATKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc, KATKotlinx_coroutines_coreLockFreeLinkedListNodeAddLastDesc<T>, KATKotlinx_coroutines_coreLockFreeLinkedListNodeRemoveFirstDesc<T>;
 
-@protocol KATKotlinx_serialization_coreKSerializer, KATKtor_client_coreHttpClientEngine, KATKotlinx_serialization_coreEncoder, KATKotlinx_serialization_coreSerialDescriptor, KATKotlinx_serialization_coreSerializationStrategy, KATKotlinx_serialization_coreDecoder, KATKotlinx_serialization_coreDeserializationStrategy, KATKtor_client_coreHttpClientEngineCapability, KATKotlinCoroutineContext, KATKotlinx_coroutines_coreCoroutineScope, KATKtor_ioCloseable, KATKotlinx_serialization_coreSerialFormat, KATKotlinx_serialization_coreStringFormat, KATKotlinIterator, KATKotlinx_serialization_coreCompositeEncoder, KATKotlinAnnotation, KATKotlinx_serialization_coreCompositeDecoder, KATKtor_httpHeaders, KATKotlinx_coroutines_coreJob, KATKtor_utilsAttributes, KATKotlinCoroutineContextKey, KATKotlinCoroutineContextElement, KATKotlinContinuation, KATKotlinContinuationInterceptor, KATKotlinx_coroutines_coreRunnable, KATKotlinx_serialization_coreSerializersModuleCollector, KATKotlinKClass, KATKtor_httpParameters, KATKotlinMapEntry, KATKtor_utilsStringValues, KATKotlinx_coroutines_coreChildHandle, KATKotlinx_coroutines_coreChildJob, KATKotlinx_coroutines_coreDisposableHandle, KATKotlinSequence, KATKotlinx_coroutines_coreSelectClause0, KATKotlinComparable, KATKtor_client_coreHttpClientPlugin, KATKotlinSuspendFunction2, KATKotlinKDeclarationContainer, KATKotlinKAnnotatedElement, KATKotlinKClassifier, KATKotlinx_coroutines_coreParentJob, KATKotlinx_coroutines_coreSelectInstance, KATKotlinSuspendFunction0, KATKotlinFunction, KATKtor_httpHttpMessage, KATKtor_ioByteReadChannel, KATKtor_httpHttpMessageBuilder, KATKtor_client_coreHttpRequest, KATKtor_ioReadSession, KATKotlinSuspendFunction1, KATKotlinAppendable, KATKtor_utilsStringValuesBuilder, KATKtor_httpParametersBuilder, KATKotlinKType, KATKtor_ioObjectPool;
+@protocol KATKotlinx_serialization_coreKSerializer, KATKtor_client_coreHttpClientEngine, KATKotlinx_serialization_coreEncoder, KATKotlinx_serialization_coreSerialDescriptor, KATKotlinx_serialization_coreSerializationStrategy, KATKotlinx_serialization_coreDecoder, KATKotlinx_serialization_coreDeserializationStrategy, KATKotlinCoroutineContext, KATKotlinx_coroutines_coreCoroutineScope, KATKtor_ioCloseable, KATKtor_client_coreHttpClientEngineCapability, KATKtor_utilsAttributes, KATKtor_httpParameters, KATKotlinx_serialization_coreSerialFormat, KATKotlinx_serialization_coreStringFormat, KATKotlinIterator, KATKotlinx_serialization_coreCompositeEncoder, KATKotlinAnnotation, KATKotlinx_serialization_coreCompositeDecoder, KATKotlinCoroutineContextElement, KATKotlinCoroutineContextKey, KATKtor_client_coreHttpClientPlugin, KATKotlinx_coroutines_coreDisposableHandle, KATKotlinSuspendFunction2, KATKotlinMapEntry, KATKtor_utilsStringValues, KATKotlinx_serialization_coreSerializersModuleCollector, KATKotlinKClass, KATKtor_httpHeaders, KATKotlinx_coroutines_coreJob, KATKotlinContinuation, KATKotlinContinuationInterceptor, KATKotlinx_coroutines_coreRunnable, KATKotlinFunction, KATKtor_httpHttpMessage, KATKtor_ioByteReadChannel, KATKtor_httpHttpMessageBuilder, KATKtor_client_coreHttpRequest, KATKotlinKDeclarationContainer, KATKotlinKAnnotatedElement, KATKotlinKClassifier, KATKotlinx_coroutines_coreChildHandle, KATKotlinx_coroutines_coreChildJob, KATKotlinSequence, KATKotlinx_coroutines_coreSelectClause0, KATKotlinComparable, KATKtor_ioReadSession, KATKotlinSuspendFunction1, KATKotlinAppendable, KATKtor_utilsStringValuesBuilder, KATKtor_httpParametersBuilder, KATKotlinKType, KATKotlinx_coroutines_coreParentJob, KATKotlinx_coroutines_coreSelectInstance, KATKotlinSuspendFunction0, KATKtor_ioObjectPool;
 
 NS_ASSUME_NONNULL_BEGIN
 #pragma clang diagnostic push
@@ -230,15 +230,17 @@ __attribute__((swift_name("Response2.Companion")))
 @end;
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("ClientKt")))
-@interface KATClientKt : KATBase
-@property (class, readonly) id<KATKtor_client_coreHttpClientEngine> httpClientEngine __attribute__((swift_name("httpClientEngine")));
+__attribute__((swift_name("ApplicationApiKt")))
+@interface KATApplicationApiKt : KATBase
++ (KATKtor_client_coreHttpClient *)getClient __attribute__((swift_name("getClient()")));
+@property (class, readonly) KATKtor_httpUrl *address __attribute__((swift_name("address")));
+@property (class, readonly) KATKotlinx_serialization_jsonJson *json __attribute__((swift_name("json")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("ApplicationApiKt")))
-@interface KATApplicationApiKt : KATBase
-@property (class, readonly) KATKotlinx_serialization_jsonJson *json __attribute__((swift_name("json")));
+__attribute__((swift_name("ClientKt")))
+@interface KATClientKt : KATBase
+@property (class, readonly) id<KATKtor_client_coreHttpClientEngine> httpClientEngine __attribute__((swift_name("httpClientEngine")));
 @end;
 
 __attribute__((swift_name("KotlinThrowable")))
@@ -323,19 +325,48 @@ __attribute__((swift_name("Ktor_ioCloseable")))
 - (void)close __attribute__((swift_name("close()")));
 @end;
 
-__attribute__((swift_name("Ktor_client_coreHttpClientEngine")))
-@protocol KATKtor_client_coreHttpClientEngine <KATKotlinx_coroutines_coreCoroutineScope, KATKtor_ioCloseable>
-@required
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_client_coreHttpClient")))
+@interface KATKtor_client_coreHttpClient : KATBase <KATKotlinx_coroutines_coreCoroutineScope, KATKtor_ioCloseable>
+- (instancetype)initWithEngine:(id<KATKtor_client_coreHttpClientEngine>)engine userConfig:(KATKtor_client_coreHttpClientConfig<KATKtor_client_coreHttpClientEngineConfig *> *)userConfig __attribute__((swift_name("init(engine:userConfig:)"))) __attribute__((objc_designated_initializer));
+- (void)close __attribute__((swift_name("close()")));
+- (KATKtor_client_coreHttpClient *)configBlock:(void (^)(KATKtor_client_coreHttpClientConfig<id> *))block __attribute__((swift_name("config(block:)")));
+- (BOOL)isSupportedCapability:(id<KATKtor_client_coreHttpClientEngineCapability>)capability __attribute__((swift_name("isSupported(capability:)")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) id<KATKtor_utilsAttributes> attributes __attribute__((swift_name("attributes")));
+@property (readonly) id<KATKotlinCoroutineContext> coroutineContext __attribute__((swift_name("coroutineContext")));
+@property (readonly) id<KATKtor_client_coreHttpClientEngine> engine __attribute__((swift_name("engine")));
+@property (readonly) KATKtor_client_coreHttpClientEngineConfig *engineConfig __attribute__((swift_name("engineConfig")));
+@property (readonly) KATKtor_eventsEvents *monitor __attribute__((swift_name("monitor")));
+@property (readonly) KATKtor_client_coreHttpReceivePipeline *receivePipeline __attribute__((swift_name("receivePipeline")));
+@property (readonly) KATKtor_client_coreHttpRequestPipeline *requestPipeline __attribute__((swift_name("requestPipeline")));
+@property (readonly) KATKtor_client_coreHttpResponsePipeline *responsePipeline __attribute__((swift_name("responsePipeline")));
+@property (readonly) KATKtor_client_coreHttpSendPipeline *sendPipeline __attribute__((swift_name("sendPipeline")));
+@end;
 
-/**
- @note This method converts instances of CancellationException to errors.
- Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)executeData:(KATKtor_client_coreHttpRequestData *)data completionHandler:(void (^)(KATKtor_client_coreHttpResponseData * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("execute(data:completionHandler:)")));
-- (void)installClient:(KATKtor_client_coreHttpClient *)client __attribute__((swift_name("install(client:)")));
-@property (readonly) KATKtor_client_coreHttpClientEngineConfig *config __attribute__((swift_name("config")));
-@property (readonly) KATKotlinx_coroutines_coreCoroutineDispatcher *dispatcher __attribute__((swift_name("dispatcher")));
-@property (readonly) NSSet<id<KATKtor_client_coreHttpClientEngineCapability>> *supportedCapabilities __attribute__((swift_name("supportedCapabilities")));
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_httpUrl")))
+@interface KATKtor_httpUrl : KATBase
+@property (class, readonly, getter=companion) KATKtor_httpUrlCompanion *companion __attribute__((swift_name("companion")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString *encodedFragment __attribute__((swift_name("encodedFragment")));
+@property (readonly) NSString * _Nullable encodedPassword __attribute__((swift_name("encodedPassword")));
+@property (readonly) NSString *encodedPath __attribute__((swift_name("encodedPath")));
+@property (readonly) NSString *encodedPathAndQuery __attribute__((swift_name("encodedPathAndQuery")));
+@property (readonly) NSString *encodedQuery __attribute__((swift_name("encodedQuery")));
+@property (readonly) NSString * _Nullable encodedUser __attribute__((swift_name("encodedUser")));
+@property (readonly) NSString *fragment __attribute__((swift_name("fragment")));
+@property (readonly) NSString *host __attribute__((swift_name("host")));
+@property (readonly) id<KATKtor_httpParameters> parameters __attribute__((swift_name("parameters")));
+@property (readonly) NSString * _Nullable password __attribute__((swift_name("password")));
+@property (readonly) NSArray<NSString *> *pathSegments __attribute__((swift_name("pathSegments")));
+@property (readonly) int32_t port __attribute__((swift_name("port")));
+@property (readonly) KATKtor_httpURLProtocol *protocol __attribute__((swift_name("protocol")));
+@property (readonly) int32_t specifiedPort __attribute__((swift_name("specifiedPort")));
+@property (readonly) BOOL trailingQuery __attribute__((swift_name("trailingQuery")));
+@property (readonly) NSString * _Nullable user __attribute__((swift_name("user")));
 @end;
 
 __attribute__((swift_name("Kotlinx_serialization_coreSerialFormat")))
@@ -361,6 +392,21 @@ __attribute__((swift_name("Kotlinx_serialization_jsonJson")))
 - (KATKotlinx_serialization_jsonJsonElement *)parseToJsonElementString:(NSString *)string __attribute__((swift_name("parseToJsonElement(string:)")));
 @property (readonly) KATKotlinx_serialization_jsonJsonConfiguration *configuration __attribute__((swift_name("configuration")));
 @property (readonly) KATKotlinx_serialization_coreSerializersModule *serializersModule __attribute__((swift_name("serializersModule")));
+@end;
+
+__attribute__((swift_name("Ktor_client_coreHttpClientEngine")))
+@protocol KATKtor_client_coreHttpClientEngine <KATKotlinx_coroutines_coreCoroutineScope, KATKtor_ioCloseable>
+@required
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)executeData:(KATKtor_client_coreHttpRequestData *)data completionHandler:(void (^)(KATKtor_client_coreHttpResponseData * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("execute(data:completionHandler:)")));
+- (void)installClient:(KATKtor_client_coreHttpClient *)client __attribute__((swift_name("install(client:)")));
+@property (readonly) KATKtor_client_coreHttpClientEngineConfig *config __attribute__((swift_name("config")));
+@property (readonly) KATKotlinx_coroutines_coreCoroutineDispatcher *dispatcher __attribute__((swift_name("dispatcher")));
+@property (readonly) NSSet<id<KATKtor_client_coreHttpClientEngineCapability>> *supportedCapabilities __attribute__((swift_name("supportedCapabilities")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -436,51 +482,13 @@ __attribute__((swift_name("Kotlinx_serialization_coreDecoder")))
 @property (readonly) KATKotlinx_serialization_coreSerializersModule *serializersModule __attribute__((swift_name("serializersModule")));
 @end;
 
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_client_coreHttpRequestData")))
-@interface KATKtor_client_coreHttpRequestData : KATBase
-- (instancetype)initWithUrl:(KATKtor_httpUrl *)url method:(KATKtor_httpHttpMethod *)method headers:(id<KATKtor_httpHeaders>)headers body:(KATKtor_httpOutgoingContent *)body executionContext:(id<KATKotlinx_coroutines_coreJob>)executionContext attributes:(id<KATKtor_utilsAttributes>)attributes __attribute__((swift_name("init(url:method:headers:body:executionContext:attributes:)"))) __attribute__((objc_designated_initializer));
-- (id _Nullable)getCapabilityOrNullKey:(id<KATKtor_client_coreHttpClientEngineCapability>)key __attribute__((swift_name("getCapabilityOrNull(key:)")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) id<KATKtor_utilsAttributes> attributes __attribute__((swift_name("attributes")));
-@property (readonly) KATKtor_httpOutgoingContent *body __attribute__((swift_name("body")));
-@property (readonly) id<KATKotlinx_coroutines_coreJob> executionContext __attribute__((swift_name("executionContext")));
-@property (readonly) id<KATKtor_httpHeaders> headers __attribute__((swift_name("headers")));
-@property (readonly) KATKtor_httpHttpMethod *method __attribute__((swift_name("method")));
-@property (readonly) KATKtor_httpUrl *url __attribute__((swift_name("url")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_client_coreHttpResponseData")))
-@interface KATKtor_client_coreHttpResponseData : KATBase
-- (instancetype)initWithStatusCode:(KATKtor_httpHttpStatusCode *)statusCode requestTime:(KATKtor_utilsGMTDate *)requestTime headers:(id<KATKtor_httpHeaders>)headers version:(KATKtor_httpHttpProtocolVersion *)version body:(id)body callContext:(id<KATKotlinCoroutineContext>)callContext __attribute__((swift_name("init(statusCode:requestTime:headers:version:body:callContext:)"))) __attribute__((objc_designated_initializer));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) id body __attribute__((swift_name("body")));
-@property (readonly) id<KATKotlinCoroutineContext> callContext __attribute__((swift_name("callContext")));
-@property (readonly) id<KATKtor_httpHeaders> headers __attribute__((swift_name("headers")));
-@property (readonly) KATKtor_utilsGMTDate *requestTime __attribute__((swift_name("requestTime")));
-@property (readonly) KATKtor_utilsGMTDate *responseTime __attribute__((swift_name("responseTime")));
-@property (readonly) KATKtor_httpHttpStatusCode *statusCode __attribute__((swift_name("statusCode")));
-@property (readonly) KATKtor_httpHttpProtocolVersion *version __attribute__((swift_name("version")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_client_coreHttpClient")))
-@interface KATKtor_client_coreHttpClient : KATBase <KATKotlinx_coroutines_coreCoroutineScope, KATKtor_ioCloseable>
-- (instancetype)initWithEngine:(id<KATKtor_client_coreHttpClientEngine>)engine userConfig:(KATKtor_client_coreHttpClientConfig<KATKtor_client_coreHttpClientEngineConfig *> *)userConfig __attribute__((swift_name("init(engine:userConfig:)"))) __attribute__((objc_designated_initializer));
-- (void)close __attribute__((swift_name("close()")));
-- (KATKtor_client_coreHttpClient *)configBlock:(void (^)(KATKtor_client_coreHttpClientConfig<id> *))block __attribute__((swift_name("config(block:)")));
-- (BOOL)isSupportedCapability:(id<KATKtor_client_coreHttpClientEngineCapability>)capability __attribute__((swift_name("isSupported(capability:)")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) id<KATKtor_utilsAttributes> attributes __attribute__((swift_name("attributes")));
-@property (readonly) id<KATKotlinCoroutineContext> coroutineContext __attribute__((swift_name("coroutineContext")));
-@property (readonly) id<KATKtor_client_coreHttpClientEngine> engine __attribute__((swift_name("engine")));
-@property (readonly) KATKtor_client_coreHttpClientEngineConfig *engineConfig __attribute__((swift_name("engineConfig")));
-@property (readonly) KATKtor_eventsEvents *monitor __attribute__((swift_name("monitor")));
-@property (readonly) KATKtor_client_coreHttpReceivePipeline *receivePipeline __attribute__((swift_name("receivePipeline")));
-@property (readonly) KATKtor_client_coreHttpRequestPipeline *requestPipeline __attribute__((swift_name("requestPipeline")));
-@property (readonly) KATKtor_client_coreHttpResponsePipeline *responsePipeline __attribute__((swift_name("responsePipeline")));
-@property (readonly) KATKtor_client_coreHttpSendPipeline *sendPipeline __attribute__((swift_name("sendPipeline")));
+__attribute__((swift_name("KotlinCoroutineContext")))
+@protocol KATKotlinCoroutineContext
+@required
+- (id _Nullable)foldInitial:(id _Nullable)initial operation:(id _Nullable (^)(id _Nullable, id<KATKotlinCoroutineContextElement>))operation __attribute__((swift_name("fold(initial:operation:)")));
+- (id<KATKotlinCoroutineContextElement> _Nullable)getKey:(id<KATKotlinCoroutineContextKey>)key __attribute__((swift_name("get(key:)")));
+- (id<KATKotlinCoroutineContext>)minusKeyKey:(id<KATKotlinCoroutineContextKey>)key __attribute__((swift_name("minusKey(key:)")));
+- (id<KATKotlinCoroutineContext>)plusContext:(id<KATKotlinCoroutineContext>)context __attribute__((swift_name("plus(context:)")));
 @end;
 
 __attribute__((swift_name("Ktor_client_coreHttpClientEngineConfig")))
@@ -492,53 +500,158 @@ __attribute__((swift_name("Ktor_client_coreHttpClientEngineConfig")))
 @property int32_t threadsCount __attribute__((swift_name("threadsCount")));
 @end;
 
-__attribute__((swift_name("KotlinCoroutineContext")))
-@protocol KATKotlinCoroutineContext
-@required
-- (id _Nullable)foldInitial:(id _Nullable)initial operation:(id _Nullable (^)(id _Nullable, id<KATKotlinCoroutineContextElement>))operation __attribute__((swift_name("fold(initial:operation:)")));
-- (id<KATKotlinCoroutineContextElement> _Nullable)getKey:(id<KATKotlinCoroutineContextKey>)key __attribute__((swift_name("get(key:)")));
-- (id<KATKotlinCoroutineContext>)minusKeyKey:(id<KATKotlinCoroutineContextKey>)key __attribute__((swift_name("minusKey(key:)")));
-- (id<KATKotlinCoroutineContext>)plusContext:(id<KATKotlinCoroutineContext>)context __attribute__((swift_name("plus(context:)")));
-@end;
-
-__attribute__((swift_name("KotlinCoroutineContextElement")))
-@protocol KATKotlinCoroutineContextElement <KATKotlinCoroutineContext>
-@required
-@property (readonly) id<KATKotlinCoroutineContextKey> key __attribute__((swift_name("key")));
-@end;
-
-__attribute__((swift_name("KotlinAbstractCoroutineContextElement")))
-@interface KATKotlinAbstractCoroutineContextElement : KATBase <KATKotlinCoroutineContextElement>
-- (instancetype)initWithKey:(id<KATKotlinCoroutineContextKey>)key __attribute__((swift_name("init(key:)"))) __attribute__((objc_designated_initializer));
-@property (readonly) id<KATKotlinCoroutineContextKey> key __attribute__((swift_name("key")));
-@end;
-
-__attribute__((swift_name("KotlinContinuationInterceptor")))
-@protocol KATKotlinContinuationInterceptor <KATKotlinCoroutineContextElement>
-@required
-- (id<KATKotlinContinuation>)interceptContinuationContinuation:(id<KATKotlinContinuation>)continuation __attribute__((swift_name("interceptContinuation(continuation:)")));
-- (void)releaseInterceptedContinuationContinuation:(id<KATKotlinContinuation>)continuation __attribute__((swift_name("releaseInterceptedContinuation(continuation:)")));
-@end;
-
-__attribute__((swift_name("Kotlinx_coroutines_coreCoroutineDispatcher")))
-@interface KATKotlinx_coroutines_coreCoroutineDispatcher : KATKotlinAbstractCoroutineContextElement <KATKotlinContinuationInterceptor>
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_client_coreHttpClientConfig")))
+@interface KATKtor_client_coreHttpClientConfig<T> : KATBase
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (instancetype)initWithKey:(id<KATKotlinCoroutineContextKey>)key __attribute__((swift_name("init(key:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (class, readonly, getter=companion) KATKotlinx_coroutines_coreCoroutineDispatcherKey *companion __attribute__((swift_name("companion")));
-- (void)dispatchContext:(id<KATKotlinCoroutineContext>)context block:(id<KATKotlinx_coroutines_coreRunnable>)block __attribute__((swift_name("dispatch(context:block:)")));
-- (void)dispatchYieldContext:(id<KATKotlinCoroutineContext>)context block:(id<KATKotlinx_coroutines_coreRunnable>)block __attribute__((swift_name("dispatchYield(context:block:)")));
-- (id<KATKotlinContinuation>)interceptContinuationContinuation:(id<KATKotlinContinuation>)continuation __attribute__((swift_name("interceptContinuation(continuation:)")));
-- (BOOL)isDispatchNeededContext:(id<KATKotlinCoroutineContext>)context __attribute__((swift_name("isDispatchNeeded(context:)")));
-- (KATKotlinx_coroutines_coreCoroutineDispatcher *)limitedParallelismParallelism:(int32_t)parallelism __attribute__((swift_name("limitedParallelism(parallelism:)")));
-- (KATKotlinx_coroutines_coreCoroutineDispatcher *)plusOther:(KATKotlinx_coroutines_coreCoroutineDispatcher *)other __attribute__((swift_name("plus(other:)"))) __attribute__((unavailable("Operator '+' on two CoroutineDispatcher objects is meaningless. CoroutineDispatcher is a coroutine context element and `+` is a set-sum operator for coroutine contexts. The dispatcher to the right of `+` just replaces the dispatcher to the left.")));
-- (void)releaseInterceptedContinuationContinuation:(id<KATKotlinContinuation>)continuation __attribute__((swift_name("releaseInterceptedContinuation(continuation:)")));
-- (NSString *)description __attribute__((swift_name("description()")));
+- (KATKtor_client_coreHttpClientConfig<T> *)clone __attribute__((swift_name("clone()")));
+- (void)engineBlock:(void (^)(T))block __attribute__((swift_name("engine(block:)")));
+- (void)installClient:(KATKtor_client_coreHttpClient *)client __attribute__((swift_name("install(client:)")));
+- (void)installPlugin:(id<KATKtor_client_coreHttpClientPlugin>)plugin configure:(void (^)(id))configure __attribute__((swift_name("install(plugin:configure:)")));
+- (void)installKey:(NSString *)key block:(void (^)(KATKtor_client_coreHttpClient *))block __attribute__((swift_name("install(key:block:)")));
+- (void)plusAssignOther:(KATKtor_client_coreHttpClientConfig<T> *)other __attribute__((swift_name("plusAssign(other:)")));
+@property BOOL developmentMode __attribute__((swift_name("developmentMode")));
+@property BOOL expectSuccess __attribute__((swift_name("expectSuccess")));
+@property BOOL followRedirects __attribute__((swift_name("followRedirects")));
+@property BOOL useDefaultTransformers __attribute__((swift_name("useDefaultTransformers")));
 @end;
 
 __attribute__((swift_name("Ktor_client_coreHttpClientEngineCapability")))
 @protocol KATKtor_client_coreHttpClientEngineCapability
 @required
+@end;
+
+__attribute__((swift_name("Ktor_utilsAttributes")))
+@protocol KATKtor_utilsAttributes
+@required
+- (id)computeIfAbsentKey:(KATKtor_utilsAttributeKey<id> *)key block:(id (^)(void))block __attribute__((swift_name("computeIfAbsent(key:block:)")));
+- (BOOL)containsKey:(KATKtor_utilsAttributeKey<id> *)key __attribute__((swift_name("contains(key:)")));
+- (id)getKey_:(KATKtor_utilsAttributeKey<id> *)key __attribute__((swift_name("get(key_:)")));
+- (id _Nullable)getOrNullKey:(KATKtor_utilsAttributeKey<id> *)key __attribute__((swift_name("getOrNull(key:)")));
+- (void)putKey:(KATKtor_utilsAttributeKey<id> *)key value:(id)value __attribute__((swift_name("put(key:value:)")));
+- (void)removeKey:(KATKtor_utilsAttributeKey<id> *)key __attribute__((swift_name("remove(key:)")));
+- (id)takeKey:(KATKtor_utilsAttributeKey<id> *)key __attribute__((swift_name("take(key:)")));
+- (id _Nullable)takeOrNullKey:(KATKtor_utilsAttributeKey<id> *)key __attribute__((swift_name("takeOrNull(key:)")));
+@property (readonly) NSArray<KATKtor_utilsAttributeKey<id> *> *allKeys __attribute__((swift_name("allKeys")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_eventsEvents")))
+@interface KATKtor_eventsEvents : KATBase
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (void)raiseDefinition:(KATKtor_eventsEventDefinition<id> *)definition value:(id _Nullable)value __attribute__((swift_name("raise(definition:value:)")));
+- (id<KATKotlinx_coroutines_coreDisposableHandle>)subscribeDefinition:(KATKtor_eventsEventDefinition<id> *)definition handler:(void (^)(id _Nullable))handler __attribute__((swift_name("subscribe(definition:handler:)")));
+- (void)unsubscribeDefinition:(KATKtor_eventsEventDefinition<id> *)definition handler:(void (^)(id _Nullable))handler __attribute__((swift_name("unsubscribe(definition:handler:)")));
+@end;
+
+__attribute__((swift_name("Ktor_utilsPipeline")))
+@interface KATKtor_utilsPipeline<TSubject, TContext> : KATBase
+- (instancetype)initWithPhase:(KATKtor_utilsPipelinePhase *)phase interceptors:(NSArray<id<KATKotlinSuspendFunction2>> *)interceptors __attribute__((swift_name("init(phase:interceptors:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithPhases:(KATKotlinArray<KATKtor_utilsPipelinePhase *> *)phases __attribute__((swift_name("init(phases:)"))) __attribute__((objc_designated_initializer));
+- (void)addPhasePhase:(KATKtor_utilsPipelinePhase *)phase __attribute__((swift_name("addPhase(phase:)")));
+- (void)afterIntercepted __attribute__((swift_name("afterIntercepted()")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)executeContext:(TContext)context subject:(TSubject)subject completionHandler:(void (^)(TSubject _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("execute(context:subject:completionHandler:)")));
+- (void)insertPhaseAfterReference:(KATKtor_utilsPipelinePhase *)reference phase:(KATKtor_utilsPipelinePhase *)phase __attribute__((swift_name("insertPhaseAfter(reference:phase:)")));
+- (void)insertPhaseBeforeReference:(KATKtor_utilsPipelinePhase *)reference phase:(KATKtor_utilsPipelinePhase *)phase __attribute__((swift_name("insertPhaseBefore(reference:phase:)")));
+- (void)interceptPhase:(KATKtor_utilsPipelinePhase *)phase block:(id<KATKotlinSuspendFunction2>)block __attribute__((swift_name("intercept(phase:block:)")));
+- (NSArray<id<KATKotlinSuspendFunction2>> *)interceptorsForPhasePhase:(KATKtor_utilsPipelinePhase *)phase __attribute__((swift_name("interceptorsForPhase(phase:)")));
+- (void)mergeFrom:(KATKtor_utilsPipeline<TSubject, TContext> *)from __attribute__((swift_name("merge(from:)")));
+- (void)mergePhasesFrom:(KATKtor_utilsPipeline<TSubject, TContext> *)from __attribute__((swift_name("mergePhases(from:)")));
+- (void)resetFromFrom:(KATKtor_utilsPipeline<TSubject, TContext> *)from __attribute__((swift_name("resetFrom(from:)")));
+@property (readonly) id<KATKtor_utilsAttributes> attributes __attribute__((swift_name("attributes")));
+@property (readonly) BOOL developmentMode __attribute__((swift_name("developmentMode")));
+@property (readonly) BOOL isEmpty __attribute__((swift_name("isEmpty")));
+@property (readonly) NSArray<KATKtor_utilsPipelinePhase *> *items __attribute__((swift_name("items")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_client_coreHttpReceivePipeline")))
+@interface KATKtor_client_coreHttpReceivePipeline : KATKtor_utilsPipeline<KATKtor_client_coreHttpResponse *, KATKotlinUnit *>
+- (instancetype)initWithDevelopmentMode:(BOOL)developmentMode __attribute__((swift_name("init(developmentMode:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithPhase:(KATKtor_utilsPipelinePhase *)phase interceptors:(NSArray<id<KATKotlinSuspendFunction2>> *)interceptors __attribute__((swift_name("init(phase:interceptors:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+- (instancetype)initWithPhases:(KATKotlinArray<KATKtor_utilsPipelinePhase *> *)phases __attribute__((swift_name("init(phases:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly, getter=companion) KATKtor_client_coreHttpReceivePipelinePhases *companion __attribute__((swift_name("companion")));
+@property (readonly) BOOL developmentMode __attribute__((swift_name("developmentMode")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_client_coreHttpRequestPipeline")))
+@interface KATKtor_client_coreHttpRequestPipeline : KATKtor_utilsPipeline<id, KATKtor_client_coreHttpRequestBuilder *>
+- (instancetype)initWithDevelopmentMode:(BOOL)developmentMode __attribute__((swift_name("init(developmentMode:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithPhase:(KATKtor_utilsPipelinePhase *)phase interceptors:(NSArray<id<KATKotlinSuspendFunction2>> *)interceptors __attribute__((swift_name("init(phase:interceptors:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+- (instancetype)initWithPhases:(KATKotlinArray<KATKtor_utilsPipelinePhase *> *)phases __attribute__((swift_name("init(phases:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly, getter=companion) KATKtor_client_coreHttpRequestPipelinePhases *companion __attribute__((swift_name("companion")));
+@property (readonly) BOOL developmentMode __attribute__((swift_name("developmentMode")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_client_coreHttpResponsePipeline")))
+@interface KATKtor_client_coreHttpResponsePipeline : KATKtor_utilsPipeline<KATKtor_client_coreHttpResponseContainer *, KATKtor_client_coreHttpClientCall *>
+- (instancetype)initWithDevelopmentMode:(BOOL)developmentMode __attribute__((swift_name("init(developmentMode:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithPhase:(KATKtor_utilsPipelinePhase *)phase interceptors:(NSArray<id<KATKotlinSuspendFunction2>> *)interceptors __attribute__((swift_name("init(phase:interceptors:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+- (instancetype)initWithPhases:(KATKotlinArray<KATKtor_utilsPipelinePhase *> *)phases __attribute__((swift_name("init(phases:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly, getter=companion) KATKtor_client_coreHttpResponsePipelinePhases *companion __attribute__((swift_name("companion")));
+@property (readonly) BOOL developmentMode __attribute__((swift_name("developmentMode")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_client_coreHttpSendPipeline")))
+@interface KATKtor_client_coreHttpSendPipeline : KATKtor_utilsPipeline<id, KATKtor_client_coreHttpRequestBuilder *>
+- (instancetype)initWithDevelopmentMode:(BOOL)developmentMode __attribute__((swift_name("init(developmentMode:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithPhase:(KATKtor_utilsPipelinePhase *)phase interceptors:(NSArray<id<KATKotlinSuspendFunction2>> *)interceptors __attribute__((swift_name("init(phase:interceptors:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+- (instancetype)initWithPhases:(KATKotlinArray<KATKtor_utilsPipelinePhase *> *)phases __attribute__((swift_name("init(phases:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly, getter=companion) KATKtor_client_coreHttpSendPipelinePhases *companion __attribute__((swift_name("companion")));
+@property (readonly) BOOL developmentMode __attribute__((swift_name("developmentMode")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_httpUrl.Companion")))
+@interface KATKtor_httpUrlCompanion : KATBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) KATKtor_httpUrlCompanion *shared __attribute__((swift_name("shared")));
+@end;
+
+__attribute__((swift_name("Ktor_utilsStringValues")))
+@protocol KATKtor_utilsStringValues
+@required
+- (BOOL)containsName:(NSString *)name __attribute__((swift_name("contains(name:)")));
+- (BOOL)containsName:(NSString *)name value:(NSString *)value __attribute__((swift_name("contains(name:value:)")));
+- (NSSet<id<KATKotlinMapEntry>> *)entries __attribute__((swift_name("entries()")));
+- (void)forEachBody:(void (^)(NSString *, NSArray<NSString *> *))body __attribute__((swift_name("forEach(body:)")));
+- (NSString * _Nullable)getName:(NSString *)name __attribute__((swift_name("get(name:)")));
+- (NSArray<NSString *> * _Nullable)getAllName:(NSString *)name __attribute__((swift_name("getAll(name:)")));
+- (BOOL)isEmpty_ __attribute__((swift_name("isEmpty()")));
+- (NSSet<NSString *> *)names __attribute__((swift_name("names()")));
+@property (readonly) BOOL caseInsensitiveName __attribute__((swift_name("caseInsensitiveName")));
+@end;
+
+__attribute__((swift_name("Ktor_httpParameters")))
+@protocol KATKtor_httpParameters <KATKtor_utilsStringValues>
+@required
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_httpURLProtocol")))
+@interface KATKtor_httpURLProtocol : KATBase
+- (instancetype)initWithName:(NSString *)name defaultPort:(int32_t)defaultPort __attribute__((swift_name("init(name:defaultPort:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) KATKtor_httpURLProtocolCompanion *companion __attribute__((swift_name("companion")));
+- (NSString *)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
+- (int32_t)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
+- (KATKtor_httpURLProtocol *)doCopyName:(NSString *)name defaultPort:(int32_t)defaultPort __attribute__((swift_name("doCopy(name:defaultPort:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) int32_t defaultPort __attribute__((swift_name("defaultPort")));
+@property (readonly) NSString *name __attribute__((swift_name("name")));
 @end;
 
 __attribute__((swift_name("Kotlinx_serialization_coreSerializersModule")))
@@ -579,6 +692,69 @@ __attribute__((swift_name("Kotlinx_serialization_jsonJsonConfiguration")))
 @property (readonly) NSString *prettyPrintIndent __attribute__((swift_name("prettyPrintIndent")));
 @property (readonly) BOOL useAlternativeNames __attribute__((swift_name("useAlternativeNames")));
 @property (readonly) BOOL useArrayPolymorphism __attribute__((swift_name("useArrayPolymorphism")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_client_coreHttpRequestData")))
+@interface KATKtor_client_coreHttpRequestData : KATBase
+- (instancetype)initWithUrl:(KATKtor_httpUrl *)url method:(KATKtor_httpHttpMethod *)method headers:(id<KATKtor_httpHeaders>)headers body:(KATKtor_httpOutgoingContent *)body executionContext:(id<KATKotlinx_coroutines_coreJob>)executionContext attributes:(id<KATKtor_utilsAttributes>)attributes __attribute__((swift_name("init(url:method:headers:body:executionContext:attributes:)"))) __attribute__((objc_designated_initializer));
+- (id _Nullable)getCapabilityOrNullKey:(id<KATKtor_client_coreHttpClientEngineCapability>)key __attribute__((swift_name("getCapabilityOrNull(key:)")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) id<KATKtor_utilsAttributes> attributes __attribute__((swift_name("attributes")));
+@property (readonly) KATKtor_httpOutgoingContent *body __attribute__((swift_name("body")));
+@property (readonly) id<KATKotlinx_coroutines_coreJob> executionContext __attribute__((swift_name("executionContext")));
+@property (readonly) id<KATKtor_httpHeaders> headers __attribute__((swift_name("headers")));
+@property (readonly) KATKtor_httpHttpMethod *method __attribute__((swift_name("method")));
+@property (readonly) KATKtor_httpUrl *url __attribute__((swift_name("url")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_client_coreHttpResponseData")))
+@interface KATKtor_client_coreHttpResponseData : KATBase
+- (instancetype)initWithStatusCode:(KATKtor_httpHttpStatusCode *)statusCode requestTime:(KATKtor_utilsGMTDate *)requestTime headers:(id<KATKtor_httpHeaders>)headers version:(KATKtor_httpHttpProtocolVersion *)version body:(id)body callContext:(id<KATKotlinCoroutineContext>)callContext __attribute__((swift_name("init(statusCode:requestTime:headers:version:body:callContext:)"))) __attribute__((objc_designated_initializer));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) id body __attribute__((swift_name("body")));
+@property (readonly) id<KATKotlinCoroutineContext> callContext __attribute__((swift_name("callContext")));
+@property (readonly) id<KATKtor_httpHeaders> headers __attribute__((swift_name("headers")));
+@property (readonly) KATKtor_utilsGMTDate *requestTime __attribute__((swift_name("requestTime")));
+@property (readonly) KATKtor_utilsGMTDate *responseTime __attribute__((swift_name("responseTime")));
+@property (readonly) KATKtor_httpHttpStatusCode *statusCode __attribute__((swift_name("statusCode")));
+@property (readonly) KATKtor_httpHttpProtocolVersion *version __attribute__((swift_name("version")));
+@end;
+
+__attribute__((swift_name("KotlinCoroutineContextElement")))
+@protocol KATKotlinCoroutineContextElement <KATKotlinCoroutineContext>
+@required
+@property (readonly) id<KATKotlinCoroutineContextKey> key __attribute__((swift_name("key")));
+@end;
+
+__attribute__((swift_name("KotlinAbstractCoroutineContextElement")))
+@interface KATKotlinAbstractCoroutineContextElement : KATBase <KATKotlinCoroutineContextElement>
+- (instancetype)initWithKey:(id<KATKotlinCoroutineContextKey>)key __attribute__((swift_name("init(key:)"))) __attribute__((objc_designated_initializer));
+@property (readonly) id<KATKotlinCoroutineContextKey> key __attribute__((swift_name("key")));
+@end;
+
+__attribute__((swift_name("KotlinContinuationInterceptor")))
+@protocol KATKotlinContinuationInterceptor <KATKotlinCoroutineContextElement>
+@required
+- (id<KATKotlinContinuation>)interceptContinuationContinuation:(id<KATKotlinContinuation>)continuation __attribute__((swift_name("interceptContinuation(continuation:)")));
+- (void)releaseInterceptedContinuationContinuation:(id<KATKotlinContinuation>)continuation __attribute__((swift_name("releaseInterceptedContinuation(continuation:)")));
+@end;
+
+__attribute__((swift_name("Kotlinx_coroutines_coreCoroutineDispatcher")))
+@interface KATKotlinx_coroutines_coreCoroutineDispatcher : KATKotlinAbstractCoroutineContextElement <KATKotlinContinuationInterceptor>
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (instancetype)initWithKey:(id<KATKotlinCoroutineContextKey>)key __attribute__((swift_name("init(key:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly, getter=companion) KATKotlinx_coroutines_coreCoroutineDispatcherKey *companion __attribute__((swift_name("companion")));
+- (void)dispatchContext:(id<KATKotlinCoroutineContext>)context block:(id<KATKotlinx_coroutines_coreRunnable>)block __attribute__((swift_name("dispatch(context:block:)")));
+- (void)dispatchYieldContext:(id<KATKotlinCoroutineContext>)context block:(id<KATKotlinx_coroutines_coreRunnable>)block __attribute__((swift_name("dispatchYield(context:block:)")));
+- (id<KATKotlinContinuation>)interceptContinuationContinuation:(id<KATKotlinContinuation>)continuation __attribute__((swift_name("interceptContinuation(continuation:)")));
+- (BOOL)isDispatchNeededContext:(id<KATKotlinCoroutineContext>)context __attribute__((swift_name("isDispatchNeeded(context:)")));
+- (KATKotlinx_coroutines_coreCoroutineDispatcher *)limitedParallelismParallelism:(int32_t)parallelism __attribute__((swift_name("limitedParallelism(parallelism:)")));
+- (KATKotlinx_coroutines_coreCoroutineDispatcher *)plusOther:(KATKotlinx_coroutines_coreCoroutineDispatcher *)other __attribute__((swift_name("plus(other:)"))) __attribute__((unavailable("Operator '+' on two CoroutineDispatcher objects is meaningless. CoroutineDispatcher is a coroutine context element and `+` is a set-sum operator for coroutine contexts. The dispatcher to the right of `+` just replaces the dispatcher to the left.")));
+- (void)releaseInterceptedContinuationContinuation:(id<KATKotlinContinuation>)continuation __attribute__((swift_name("releaseInterceptedContinuation(continuation:)")));
+- (NSString *)description __attribute__((swift_name("description()")));
 @end;
 
 __attribute__((swift_name("KotlinIterator")))
@@ -646,269 +822,9 @@ __attribute__((swift_name("KotlinNothing")))
 @interface KATKotlinNothing : KATBase
 @end;
 
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_httpUrl")))
-@interface KATKtor_httpUrl : KATBase
-@property (class, readonly, getter=companion) KATKtor_httpUrlCompanion *companion __attribute__((swift_name("companion")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) NSString *encodedFragment __attribute__((swift_name("encodedFragment")));
-@property (readonly) NSString * _Nullable encodedPassword __attribute__((swift_name("encodedPassword")));
-@property (readonly) NSString *encodedPath __attribute__((swift_name("encodedPath")));
-@property (readonly) NSString *encodedPathAndQuery __attribute__((swift_name("encodedPathAndQuery")));
-@property (readonly) NSString *encodedQuery __attribute__((swift_name("encodedQuery")));
-@property (readonly) NSString * _Nullable encodedUser __attribute__((swift_name("encodedUser")));
-@property (readonly) NSString *fragment __attribute__((swift_name("fragment")));
-@property (readonly) NSString *host __attribute__((swift_name("host")));
-@property (readonly) id<KATKtor_httpParameters> parameters __attribute__((swift_name("parameters")));
-@property (readonly) NSString * _Nullable password __attribute__((swift_name("password")));
-@property (readonly) NSArray<NSString *> *pathSegments __attribute__((swift_name("pathSegments")));
-@property (readonly) int32_t port __attribute__((swift_name("port")));
-@property (readonly) KATKtor_httpURLProtocol *protocol __attribute__((swift_name("protocol")));
-@property (readonly) int32_t specifiedPort __attribute__((swift_name("specifiedPort")));
-@property (readonly) BOOL trailingQuery __attribute__((swift_name("trailingQuery")));
-@property (readonly) NSString * _Nullable user __attribute__((swift_name("user")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_httpHttpMethod")))
-@interface KATKtor_httpHttpMethod : KATBase
-- (instancetype)initWithValue:(NSString *)value __attribute__((swift_name("init(value:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) KATKtor_httpHttpMethodCompanion *companion __attribute__((swift_name("companion")));
-- (NSString *)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (KATKtor_httpHttpMethod *)doCopyValue:(NSString *)value __attribute__((swift_name("doCopy(value:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) NSString *value __attribute__((swift_name("value")));
-@end;
-
-__attribute__((swift_name("Ktor_utilsStringValues")))
-@protocol KATKtor_utilsStringValues
+__attribute__((swift_name("KotlinCoroutineContextKey")))
+@protocol KATKotlinCoroutineContextKey
 @required
-- (BOOL)containsName:(NSString *)name __attribute__((swift_name("contains(name:)")));
-- (BOOL)containsName:(NSString *)name value:(NSString *)value __attribute__((swift_name("contains(name:value:)")));
-- (NSSet<id<KATKotlinMapEntry>> *)entries __attribute__((swift_name("entries()")));
-- (void)forEachBody:(void (^)(NSString *, NSArray<NSString *> *))body __attribute__((swift_name("forEach(body:)")));
-- (NSString * _Nullable)getName:(NSString *)name __attribute__((swift_name("get(name:)")));
-- (NSArray<NSString *> * _Nullable)getAllName:(NSString *)name __attribute__((swift_name("getAll(name:)")));
-- (BOOL)isEmpty __attribute__((swift_name("isEmpty()")));
-- (NSSet<NSString *> *)names __attribute__((swift_name("names()")));
-@property (readonly) BOOL caseInsensitiveName __attribute__((swift_name("caseInsensitiveName")));
-@end;
-
-__attribute__((swift_name("Ktor_httpHeaders")))
-@protocol KATKtor_httpHeaders <KATKtor_utilsStringValues>
-@required
-@end;
-
-__attribute__((swift_name("Ktor_httpOutgoingContent")))
-@interface KATKtor_httpOutgoingContent : KATBase
-- (id _Nullable)getPropertyKey:(KATKtor_utilsAttributeKey<id> *)key __attribute__((swift_name("getProperty(key:)")));
-- (void)setPropertyKey:(KATKtor_utilsAttributeKey<id> *)key value:(id _Nullable)value __attribute__((swift_name("setProperty(key:value:)")));
-- (id<KATKtor_httpHeaders> _Nullable)trailers __attribute__((swift_name("trailers()")));
-@property (readonly) KATLong * _Nullable contentLength __attribute__((swift_name("contentLength")));
-@property (readonly) KATKtor_httpContentType * _Nullable contentType __attribute__((swift_name("contentType")));
-@property (readonly) id<KATKtor_httpHeaders> headers __attribute__((swift_name("headers")));
-@property (readonly) KATKtor_httpHttpStatusCode * _Nullable status __attribute__((swift_name("status")));
-@end;
-
-__attribute__((swift_name("Kotlinx_coroutines_coreJob")))
-@protocol KATKotlinx_coroutines_coreJob <KATKotlinCoroutineContextElement>
-@required
-- (id<KATKotlinx_coroutines_coreChildHandle>)attachChildChild:(id<KATKotlinx_coroutines_coreChildJob>)child __attribute__((swift_name("attachChild(child:)")));
-- (void)cancelCause:(KATKotlinCancellationException * _Nullable)cause __attribute__((swift_name("cancel(cause:)")));
-- (KATKotlinCancellationException *)getCancellationException __attribute__((swift_name("getCancellationException()")));
-- (id<KATKotlinx_coroutines_coreDisposableHandle>)invokeOnCompletionOnCancelling:(BOOL)onCancelling invokeImmediately:(BOOL)invokeImmediately handler:(void (^)(KATKotlinThrowable * _Nullable))handler __attribute__((swift_name("invokeOnCompletion(onCancelling:invokeImmediately:handler:)")));
-- (id<KATKotlinx_coroutines_coreDisposableHandle>)invokeOnCompletionHandler:(void (^)(KATKotlinThrowable * _Nullable))handler __attribute__((swift_name("invokeOnCompletion(handler:)")));
-
-/**
- @note This method converts instances of CancellationException to errors.
- Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)joinWithCompletionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("join(completionHandler:)")));
-- (id<KATKotlinx_coroutines_coreJob>)plusOther_:(id<KATKotlinx_coroutines_coreJob>)other __attribute__((swift_name("plus(other_:)"))) __attribute__((unavailable("Operator '+' on two Job objects is meaningless. Job is a coroutine context element and `+` is a set-sum operator for coroutine contexts. The job to the right of `+` just replaces the job the left of `+`.")));
-- (BOOL)start __attribute__((swift_name("start()")));
-@property (readonly) id<KATKotlinSequence> children __attribute__((swift_name("children")));
-@property (readonly) BOOL isActive __attribute__((swift_name("isActive")));
-@property (readonly) BOOL isCancelled __attribute__((swift_name("isCancelled")));
-@property (readonly) BOOL isCompleted __attribute__((swift_name("isCompleted")));
-@property (readonly) id<KATKotlinx_coroutines_coreSelectClause0> onJoin __attribute__((swift_name("onJoin")));
-@end;
-
-__attribute__((swift_name("Ktor_utilsAttributes")))
-@protocol KATKtor_utilsAttributes
-@required
-- (id)computeIfAbsentKey:(KATKtor_utilsAttributeKey<id> *)key block:(id (^)(void))block __attribute__((swift_name("computeIfAbsent(key:block:)")));
-- (BOOL)containsKey:(KATKtor_utilsAttributeKey<id> *)key __attribute__((swift_name("contains(key:)")));
-- (id)getKey_:(KATKtor_utilsAttributeKey<id> *)key __attribute__((swift_name("get(key_:)")));
-- (id _Nullable)getOrNullKey:(KATKtor_utilsAttributeKey<id> *)key __attribute__((swift_name("getOrNull(key:)")));
-- (void)putKey:(KATKtor_utilsAttributeKey<id> *)key value:(id)value __attribute__((swift_name("put(key:value:)")));
-- (void)removeKey:(KATKtor_utilsAttributeKey<id> *)key __attribute__((swift_name("remove(key:)")));
-- (id)takeKey:(KATKtor_utilsAttributeKey<id> *)key __attribute__((swift_name("take(key:)")));
-- (id _Nullable)takeOrNullKey:(KATKtor_utilsAttributeKey<id> *)key __attribute__((swift_name("takeOrNull(key:)")));
-@property (readonly) NSArray<KATKtor_utilsAttributeKey<id> *> *allKeys __attribute__((swift_name("allKeys")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_httpHttpStatusCode")))
-@interface KATKtor_httpHttpStatusCode : KATBase
-- (instancetype)initWithValue:(int32_t)value description:(NSString *)description __attribute__((swift_name("init(value:description:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) KATKtor_httpHttpStatusCodeCompanion *companion __attribute__((swift_name("companion")));
-- (int32_t)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString *)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
-- (KATKtor_httpHttpStatusCode *)doCopyValue:(int32_t)value description:(NSString *)description __attribute__((swift_name("doCopy(value:description:)")));
-- (KATKtor_httpHttpStatusCode *)descriptionValue:(NSString *)value __attribute__((swift_name("description(value:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) NSString *description_ __attribute__((swift_name("description_")));
-@property (readonly) int32_t value __attribute__((swift_name("value")));
-@end;
-
-__attribute__((swift_name("KotlinComparable")))
-@protocol KATKotlinComparable
-@required
-- (int32_t)compareToOther:(id _Nullable)other __attribute__((swift_name("compareTo(other:)")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_utilsGMTDate")))
-@interface KATKtor_utilsGMTDate : KATBase <KATKotlinComparable>
-@property (class, readonly, getter=companion) KATKtor_utilsGMTDateCompanion *companion __attribute__((swift_name("companion")));
-- (int32_t)compareToOther:(KATKtor_utilsGMTDate *)other __attribute__((swift_name("compareTo(other:)")));
-- (int32_t)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (int32_t)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
-- (int32_t)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
-- (KATKtor_utilsWeekDay *)component4 __attribute__((swift_name("component4()"))) __attribute__((deprecated("use corresponding property instead")));
-- (int32_t)component5 __attribute__((swift_name("component5()"))) __attribute__((deprecated("use corresponding property instead")));
-- (int32_t)component6 __attribute__((swift_name("component6()"))) __attribute__((deprecated("use corresponding property instead")));
-- (KATKtor_utilsMonth *)component7 __attribute__((swift_name("component7()"))) __attribute__((deprecated("use corresponding property instead")));
-- (int32_t)component8 __attribute__((swift_name("component8()"))) __attribute__((deprecated("use corresponding property instead")));
-- (int64_t)component9 __attribute__((swift_name("component9()"))) __attribute__((deprecated("use corresponding property instead")));
-- (KATKtor_utilsGMTDate *)doCopySeconds:(int32_t)seconds minutes:(int32_t)minutes hours:(int32_t)hours dayOfWeek:(KATKtor_utilsWeekDay *)dayOfWeek dayOfMonth:(int32_t)dayOfMonth dayOfYear:(int32_t)dayOfYear month:(KATKtor_utilsMonth *)month year:(int32_t)year timestamp:(int64_t)timestamp __attribute__((swift_name("doCopy(seconds:minutes:hours:dayOfWeek:dayOfMonth:dayOfYear:month:year:timestamp:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) int32_t dayOfMonth __attribute__((swift_name("dayOfMonth")));
-@property (readonly) KATKtor_utilsWeekDay *dayOfWeek __attribute__((swift_name("dayOfWeek")));
-@property (readonly) int32_t dayOfYear __attribute__((swift_name("dayOfYear")));
-@property (readonly) int32_t hours __attribute__((swift_name("hours")));
-@property (readonly) int32_t minutes __attribute__((swift_name("minutes")));
-@property (readonly) KATKtor_utilsMonth *month __attribute__((swift_name("month")));
-@property (readonly) int32_t seconds __attribute__((swift_name("seconds")));
-@property (readonly) int64_t timestamp __attribute__((swift_name("timestamp")));
-@property (readonly) int32_t year __attribute__((swift_name("year")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_httpHttpProtocolVersion")))
-@interface KATKtor_httpHttpProtocolVersion : KATBase
-- (instancetype)initWithName:(NSString *)name major:(int32_t)major minor:(int32_t)minor __attribute__((swift_name("init(name:major:minor:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) KATKtor_httpHttpProtocolVersionCompanion *companion __attribute__((swift_name("companion")));
-- (NSString *)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (int32_t)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
-- (int32_t)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
-- (KATKtor_httpHttpProtocolVersion *)doCopyName:(NSString *)name major:(int32_t)major minor:(int32_t)minor __attribute__((swift_name("doCopy(name:major:minor:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) int32_t major __attribute__((swift_name("major")));
-@property (readonly) int32_t minor __attribute__((swift_name("minor")));
-@property (readonly) NSString *name __attribute__((swift_name("name")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_client_coreHttpClientConfig")))
-@interface KATKtor_client_coreHttpClientConfig<T> : KATBase
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (KATKtor_client_coreHttpClientConfig<T> *)clone __attribute__((swift_name("clone()")));
-- (void)engineBlock:(void (^)(T))block __attribute__((swift_name("engine(block:)")));
-- (void)installClient:(KATKtor_client_coreHttpClient *)client __attribute__((swift_name("install(client:)")));
-- (void)installPlugin:(id<KATKtor_client_coreHttpClientPlugin>)plugin configure:(void (^)(id))configure __attribute__((swift_name("install(plugin:configure:)")));
-- (void)installKey:(NSString *)key block:(void (^)(KATKtor_client_coreHttpClient *))block __attribute__((swift_name("install(key:block:)")));
-- (void)plusAssignOther:(KATKtor_client_coreHttpClientConfig<T> *)other __attribute__((swift_name("plusAssign(other:)")));
-@property BOOL developmentMode __attribute__((swift_name("developmentMode")));
-@property BOOL expectSuccess __attribute__((swift_name("expectSuccess")));
-@property BOOL followRedirects __attribute__((swift_name("followRedirects")));
-@property BOOL useDefaultTransformers __attribute__((swift_name("useDefaultTransformers")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_eventsEvents")))
-@interface KATKtor_eventsEvents : KATBase
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (void)raiseDefinition:(KATKtor_eventsEventDefinition<id> *)definition value:(id _Nullable)value __attribute__((swift_name("raise(definition:value:)")));
-- (id<KATKotlinx_coroutines_coreDisposableHandle>)subscribeDefinition:(KATKtor_eventsEventDefinition<id> *)definition handler:(void (^)(id _Nullable))handler __attribute__((swift_name("subscribe(definition:handler:)")));
-- (void)unsubscribeDefinition:(KATKtor_eventsEventDefinition<id> *)definition handler:(void (^)(id _Nullable))handler __attribute__((swift_name("unsubscribe(definition:handler:)")));
-@end;
-
-__attribute__((swift_name("Ktor_utilsPipeline")))
-@interface KATKtor_utilsPipeline<TSubject, TContext> : KATBase
-- (instancetype)initWithPhase:(KATKtor_utilsPipelinePhase *)phase interceptors:(NSArray<id<KATKotlinSuspendFunction2>> *)interceptors __attribute__((swift_name("init(phase:interceptors:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithPhases:(KATKotlinArray<KATKtor_utilsPipelinePhase *> *)phases __attribute__((swift_name("init(phases:)"))) __attribute__((objc_designated_initializer));
-- (void)addPhasePhase:(KATKtor_utilsPipelinePhase *)phase __attribute__((swift_name("addPhase(phase:)")));
-- (void)afterIntercepted __attribute__((swift_name("afterIntercepted()")));
-
-/**
- @note This method converts instances of CancellationException to errors.
- Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)executeContext:(TContext)context subject:(TSubject)subject completionHandler:(void (^)(TSubject _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("execute(context:subject:completionHandler:)")));
-- (void)insertPhaseAfterReference:(KATKtor_utilsPipelinePhase *)reference phase:(KATKtor_utilsPipelinePhase *)phase __attribute__((swift_name("insertPhaseAfter(reference:phase:)")));
-- (void)insertPhaseBeforeReference:(KATKtor_utilsPipelinePhase *)reference phase:(KATKtor_utilsPipelinePhase *)phase __attribute__((swift_name("insertPhaseBefore(reference:phase:)")));
-- (void)interceptPhase:(KATKtor_utilsPipelinePhase *)phase block:(id<KATKotlinSuspendFunction2>)block __attribute__((swift_name("intercept(phase:block:)")));
-- (NSArray<id<KATKotlinSuspendFunction2>> *)interceptorsForPhasePhase:(KATKtor_utilsPipelinePhase *)phase __attribute__((swift_name("interceptorsForPhase(phase:)")));
-- (void)mergeFrom:(KATKtor_utilsPipeline<TSubject, TContext> *)from __attribute__((swift_name("merge(from:)")));
-- (void)mergePhasesFrom:(KATKtor_utilsPipeline<TSubject, TContext> *)from __attribute__((swift_name("mergePhases(from:)")));
-- (void)resetFromFrom:(KATKtor_utilsPipeline<TSubject, TContext> *)from __attribute__((swift_name("resetFrom(from:)")));
-@property (readonly) id<KATKtor_utilsAttributes> attributes __attribute__((swift_name("attributes")));
-@property (readonly) BOOL developmentMode __attribute__((swift_name("developmentMode")));
-@property (readonly, getter=isEmpty_) BOOL isEmpty __attribute__((swift_name("isEmpty")));
-@property (readonly) NSArray<KATKtor_utilsPipelinePhase *> *items __attribute__((swift_name("items")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_client_coreHttpReceivePipeline")))
-@interface KATKtor_client_coreHttpReceivePipeline : KATKtor_utilsPipeline<KATKtor_client_coreHttpResponse *, KATKotlinUnit *>
-- (instancetype)initWithDevelopmentMode:(BOOL)developmentMode __attribute__((swift_name("init(developmentMode:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithPhase:(KATKtor_utilsPipelinePhase *)phase interceptors:(NSArray<id<KATKotlinSuspendFunction2>> *)interceptors __attribute__((swift_name("init(phase:interceptors:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-- (instancetype)initWithPhases:(KATKotlinArray<KATKtor_utilsPipelinePhase *> *)phases __attribute__((swift_name("init(phases:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (class, readonly, getter=companion) KATKtor_client_coreHttpReceivePipelinePhases *companion __attribute__((swift_name("companion")));
-@property (readonly) BOOL developmentMode __attribute__((swift_name("developmentMode")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_client_coreHttpRequestPipeline")))
-@interface KATKtor_client_coreHttpRequestPipeline : KATKtor_utilsPipeline<id, KATKtor_client_coreHttpRequestBuilder *>
-- (instancetype)initWithDevelopmentMode:(BOOL)developmentMode __attribute__((swift_name("init(developmentMode:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithPhase:(KATKtor_utilsPipelinePhase *)phase interceptors:(NSArray<id<KATKotlinSuspendFunction2>> *)interceptors __attribute__((swift_name("init(phase:interceptors:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-- (instancetype)initWithPhases:(KATKotlinArray<KATKtor_utilsPipelinePhase *> *)phases __attribute__((swift_name("init(phases:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (class, readonly, getter=companion) KATKtor_client_coreHttpRequestPipelinePhases *companion __attribute__((swift_name("companion")));
-@property (readonly) BOOL developmentMode __attribute__((swift_name("developmentMode")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_client_coreHttpResponsePipeline")))
-@interface KATKtor_client_coreHttpResponsePipeline : KATKtor_utilsPipeline<KATKtor_client_coreHttpResponseContainer *, KATKtor_client_coreHttpClientCall *>
-- (instancetype)initWithDevelopmentMode:(BOOL)developmentMode __attribute__((swift_name("init(developmentMode:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithPhase:(KATKtor_utilsPipelinePhase *)phase interceptors:(NSArray<id<KATKotlinSuspendFunction2>> *)interceptors __attribute__((swift_name("init(phase:interceptors:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-- (instancetype)initWithPhases:(KATKotlinArray<KATKtor_utilsPipelinePhase *> *)phases __attribute__((swift_name("init(phases:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (class, readonly, getter=companion) KATKtor_client_coreHttpResponsePipelinePhases *companion __attribute__((swift_name("companion")));
-@property (readonly) BOOL developmentMode __attribute__((swift_name("developmentMode")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_client_coreHttpSendPipeline")))
-@interface KATKtor_client_coreHttpSendPipeline : KATKtor_utilsPipeline<id, KATKtor_client_coreHttpRequestBuilder *>
-- (instancetype)initWithDevelopmentMode:(BOOL)developmentMode __attribute__((swift_name("init(developmentMode:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithPhase:(KATKtor_utilsPipelinePhase *)phase interceptors:(NSArray<id<KATKotlinSuspendFunction2>> *)interceptors __attribute__((swift_name("init(phase:interceptors:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-- (instancetype)initWithPhases:(KATKotlinArray<KATKtor_utilsPipelinePhase *> *)phases __attribute__((swift_name("init(phases:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (class, readonly, getter=companion) KATKtor_client_coreHttpSendPipelinePhases *companion __attribute__((swift_name("companion")));
-@property (readonly) BOOL developmentMode __attribute__((swift_name("developmentMode")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -919,135 +835,12 @@ __attribute__((swift_name("Ktor_client_coreProxyConfig")))
 @property (readonly) KATKtor_httpUrl *url __attribute__((swift_name("url")));
 @end;
 
-__attribute__((swift_name("KotlinCoroutineContextKey")))
-@protocol KATKotlinCoroutineContextKey
+__attribute__((swift_name("Ktor_client_coreHttpClientPlugin")))
+@protocol KATKtor_client_coreHttpClientPlugin
 @required
-@end;
-
-__attribute__((swift_name("KotlinContinuation")))
-@protocol KATKotlinContinuation
-@required
-- (void)resumeWithResult:(id _Nullable)result __attribute__((swift_name("resumeWith(result:)")));
-@property (readonly) id<KATKotlinCoroutineContext> context __attribute__((swift_name("context")));
-@end;
-
-__attribute__((swift_name("KotlinAbstractCoroutineContextKey")))
-@interface KATKotlinAbstractCoroutineContextKey<B, E> : KATBase <KATKotlinCoroutineContextKey>
-- (instancetype)initWithBaseKey:(id<KATKotlinCoroutineContextKey>)baseKey safeCast:(E _Nullable (^)(id<KATKotlinCoroutineContextElement>))safeCast __attribute__((swift_name("init(baseKey:safeCast:)"))) __attribute__((objc_designated_initializer));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Kotlinx_coroutines_coreCoroutineDispatcher.Key")))
-@interface KATKotlinx_coroutines_coreCoroutineDispatcherKey : KATKotlinAbstractCoroutineContextKey<id<KATKotlinContinuationInterceptor>, KATKotlinx_coroutines_coreCoroutineDispatcher *>
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-- (instancetype)initWithBaseKey:(id<KATKotlinCoroutineContextKey>)baseKey safeCast:(id<KATKotlinCoroutineContextElement> _Nullable (^)(id<KATKotlinCoroutineContextElement>))safeCast __attribute__((swift_name("init(baseKey:safeCast:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-+ (instancetype)key __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) KATKotlinx_coroutines_coreCoroutineDispatcherKey *shared __attribute__((swift_name("shared")));
-@end;
-
-__attribute__((swift_name("Kotlinx_coroutines_coreRunnable")))
-@protocol KATKotlinx_coroutines_coreRunnable
-@required
-- (void)run __attribute__((swift_name("run()")));
-@end;
-
-__attribute__((swift_name("Kotlinx_serialization_coreSerializersModuleCollector")))
-@protocol KATKotlinx_serialization_coreSerializersModuleCollector
-@required
-- (void)contextualKClass:(id<KATKotlinKClass>)kClass provider:(id<KATKotlinx_serialization_coreKSerializer> (^)(NSArray<id<KATKotlinx_serialization_coreKSerializer>> *))provider __attribute__((swift_name("contextual(kClass:provider:)")));
-- (void)contextualKClass:(id<KATKotlinKClass>)kClass serializer:(id<KATKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("contextual(kClass:serializer:)")));
-- (void)polymorphicBaseClass:(id<KATKotlinKClass>)baseClass actualClass:(id<KATKotlinKClass>)actualClass actualSerializer:(id<KATKotlinx_serialization_coreKSerializer>)actualSerializer __attribute__((swift_name("polymorphic(baseClass:actualClass:actualSerializer:)")));
-- (void)polymorphicDefaultBaseClass:(id<KATKotlinKClass>)baseClass defaultDeserializerProvider:(id<KATKotlinx_serialization_coreDeserializationStrategy> _Nullable (^)(NSString * _Nullable))defaultDeserializerProvider __attribute__((swift_name("polymorphicDefault(baseClass:defaultDeserializerProvider:)")));
-- (void)polymorphicDefaultDeserializerBaseClass:(id<KATKotlinKClass>)baseClass defaultDeserializerProvider:(id<KATKotlinx_serialization_coreDeserializationStrategy> _Nullable (^)(NSString * _Nullable))defaultDeserializerProvider __attribute__((swift_name("polymorphicDefaultDeserializer(baseClass:defaultDeserializerProvider:)")));
-- (void)polymorphicDefaultSerializerBaseClass:(id<KATKotlinKClass>)baseClass defaultSerializerProvider:(id<KATKotlinx_serialization_coreSerializationStrategy> _Nullable (^)(id))defaultSerializerProvider __attribute__((swift_name("polymorphicDefaultSerializer(baseClass:defaultSerializerProvider:)")));
-@end;
-
-__attribute__((swift_name("KotlinKDeclarationContainer")))
-@protocol KATKotlinKDeclarationContainer
-@required
-@end;
-
-__attribute__((swift_name("KotlinKAnnotatedElement")))
-@protocol KATKotlinKAnnotatedElement
-@required
-@end;
-
-__attribute__((swift_name("KotlinKClassifier")))
-@protocol KATKotlinKClassifier
-@required
-@end;
-
-__attribute__((swift_name("KotlinKClass")))
-@protocol KATKotlinKClass <KATKotlinKDeclarationContainer, KATKotlinKAnnotatedElement, KATKotlinKClassifier>
-@required
-- (BOOL)isInstanceValue:(id _Nullable)value __attribute__((swift_name("isInstance(value:)")));
-@property (readonly) NSString * _Nullable qualifiedName __attribute__((swift_name("qualifiedName")));
-@property (readonly) NSString * _Nullable simpleName __attribute__((swift_name("simpleName")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Kotlinx_serialization_jsonJsonElement.Companion")))
-@interface KATKotlinx_serialization_jsonJsonElementCompanion : KATBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) KATKotlinx_serialization_jsonJsonElementCompanion *shared __attribute__((swift_name("shared")));
-- (id<KATKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_httpUrl.Companion")))
-@interface KATKtor_httpUrlCompanion : KATBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) KATKtor_httpUrlCompanion *shared __attribute__((swift_name("shared")));
-@end;
-
-__attribute__((swift_name("Ktor_httpParameters")))
-@protocol KATKtor_httpParameters <KATKtor_utilsStringValues>
-@required
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_httpURLProtocol")))
-@interface KATKtor_httpURLProtocol : KATBase
-- (instancetype)initWithName:(NSString *)name defaultPort:(int32_t)defaultPort __attribute__((swift_name("init(name:defaultPort:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) KATKtor_httpURLProtocolCompanion *companion __attribute__((swift_name("companion")));
-- (NSString *)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (int32_t)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
-- (KATKtor_httpURLProtocol *)doCopyName:(NSString *)name defaultPort:(int32_t)defaultPort __attribute__((swift_name("doCopy(name:defaultPort:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) int32_t defaultPort __attribute__((swift_name("defaultPort")));
-@property (readonly) NSString *name __attribute__((swift_name("name")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_httpHttpMethod.Companion")))
-@interface KATKtor_httpHttpMethodCompanion : KATBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) KATKtor_httpHttpMethodCompanion *shared __attribute__((swift_name("shared")));
-- (KATKtor_httpHttpMethod *)parseMethod:(NSString *)method __attribute__((swift_name("parse(method:)")));
-@property (readonly) NSArray<KATKtor_httpHttpMethod *> *DefaultMethods __attribute__((swift_name("DefaultMethods")));
-@property (readonly) KATKtor_httpHttpMethod *Delete __attribute__((swift_name("Delete")));
-@property (readonly) KATKtor_httpHttpMethod *Get __attribute__((swift_name("Get")));
-@property (readonly) KATKtor_httpHttpMethod *Head __attribute__((swift_name("Head")));
-@property (readonly) KATKtor_httpHttpMethod *Options __attribute__((swift_name("Options")));
-@property (readonly) KATKtor_httpHttpMethod *Patch __attribute__((swift_name("Patch")));
-@property (readonly) KATKtor_httpHttpMethod *Post __attribute__((swift_name("Post")));
-@property (readonly) KATKtor_httpHttpMethod *Put __attribute__((swift_name("Put")));
-@end;
-
-__attribute__((swift_name("KotlinMapEntry")))
-@protocol KATKotlinMapEntry
-@required
-@property (readonly) id _Nullable key __attribute__((swift_name("key")));
-@property (readonly) id _Nullable value __attribute__((swift_name("value")));
+- (void)installPlugin:(id)plugin scope:(KATKtor_client_coreHttpClient *)scope __attribute__((swift_name("install(plugin:scope:)")));
+- (id)prepareBlock:(void (^)(id))block __attribute__((swift_name("prepare(block:)")));
+@property (readonly) KATKtor_utilsAttributeKey<id> *key __attribute__((swift_name("key")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -1060,217 +853,16 @@ __attribute__((swift_name("Ktor_utilsAttributeKey")))
 @property (readonly) NSString *name __attribute__((swift_name("name")));
 @end;
 
-__attribute__((swift_name("Ktor_httpHeaderValueWithParameters")))
-@interface KATKtor_httpHeaderValueWithParameters : KATBase
-- (instancetype)initWithContent:(NSString *)content parameters:(NSArray<KATKtor_httpHeaderValueParam *> *)parameters __attribute__((swift_name("init(content:parameters:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) KATKtor_httpHeaderValueWithParametersCompanion *companion __attribute__((swift_name("companion")));
-- (NSString * _Nullable)parameterName:(NSString *)name __attribute__((swift_name("parameter(name:)")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) NSString *content __attribute__((swift_name("content")));
-@property (readonly) NSArray<KATKtor_httpHeaderValueParam *> *parameters __attribute__((swift_name("parameters")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_httpContentType")))
-@interface KATKtor_httpContentType : KATKtor_httpHeaderValueWithParameters
-- (instancetype)initWithContentType:(NSString *)contentType contentSubtype:(NSString *)contentSubtype parameters:(NSArray<KATKtor_httpHeaderValueParam *> *)parameters __attribute__((swift_name("init(contentType:contentSubtype:parameters:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithContent:(NSString *)content parameters:(NSArray<KATKtor_httpHeaderValueParam *> *)parameters __attribute__((swift_name("init(content:parameters:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (class, readonly, getter=companion) KATKtor_httpContentTypeCompanion *companion __attribute__((swift_name("companion")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (BOOL)matchPattern:(KATKtor_httpContentType *)pattern __attribute__((swift_name("match(pattern:)")));
-- (BOOL)matchPattern_:(NSString *)pattern __attribute__((swift_name("match(pattern_:)")));
-- (KATKtor_httpContentType *)withParameterName:(NSString *)name value:(NSString *)value __attribute__((swift_name("withParameter(name:value:)")));
-- (KATKtor_httpContentType *)withoutParameters __attribute__((swift_name("withoutParameters()")));
-@property (readonly) NSString *contentSubtype __attribute__((swift_name("contentSubtype")));
-@property (readonly) NSString *contentType __attribute__((swift_name("contentType")));
+__attribute__((swift_name("Ktor_eventsEventDefinition")))
+@interface KATKtor_eventsEventDefinition<T> : KATBase
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
 @end;
 
 __attribute__((swift_name("Kotlinx_coroutines_coreDisposableHandle")))
 @protocol KATKotlinx_coroutines_coreDisposableHandle
 @required
 - (void)dispose __attribute__((swift_name("dispose()")));
-@end;
-
-__attribute__((swift_name("Kotlinx_coroutines_coreChildHandle")))
-@protocol KATKotlinx_coroutines_coreChildHandle <KATKotlinx_coroutines_coreDisposableHandle>
-@required
-- (BOOL)childCancelledCause:(KATKotlinThrowable *)cause __attribute__((swift_name("childCancelled(cause:)")));
-@property (readonly) id<KATKotlinx_coroutines_coreJob> _Nullable parent __attribute__((swift_name("parent")));
-@end;
-
-__attribute__((swift_name("Kotlinx_coroutines_coreChildJob")))
-@protocol KATKotlinx_coroutines_coreChildJob <KATKotlinx_coroutines_coreJob>
-@required
-- (void)parentCancelledParentJob:(id<KATKotlinx_coroutines_coreParentJob>)parentJob __attribute__((swift_name("parentCancelled(parentJob:)")));
-@end;
-
-__attribute__((swift_name("KotlinSequence")))
-@protocol KATKotlinSequence
-@required
-- (id<KATKotlinIterator>)iterator __attribute__((swift_name("iterator()")));
-@end;
-
-__attribute__((swift_name("Kotlinx_coroutines_coreSelectClause0")))
-@protocol KATKotlinx_coroutines_coreSelectClause0
-@required
-- (void)registerSelectClause0Select:(id<KATKotlinx_coroutines_coreSelectInstance>)select block:(id<KATKotlinSuspendFunction0>)block __attribute__((swift_name("registerSelectClause0(select:block:)")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_httpHttpStatusCode.Companion")))
-@interface KATKtor_httpHttpStatusCodeCompanion : KATBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) KATKtor_httpHttpStatusCodeCompanion *shared __attribute__((swift_name("shared")));
-- (KATKtor_httpHttpStatusCode *)fromValueValue:(int32_t)value __attribute__((swift_name("fromValue(value:)")));
-@property (readonly) KATKtor_httpHttpStatusCode *Accepted __attribute__((swift_name("Accepted")));
-@property (readonly) KATKtor_httpHttpStatusCode *BadGateway __attribute__((swift_name("BadGateway")));
-@property (readonly) KATKtor_httpHttpStatusCode *BadRequest __attribute__((swift_name("BadRequest")));
-@property (readonly) KATKtor_httpHttpStatusCode *Conflict __attribute__((swift_name("Conflict")));
-@property (readonly) KATKtor_httpHttpStatusCode *Continue __attribute__((swift_name("Continue")));
-@property (readonly) KATKtor_httpHttpStatusCode *Created __attribute__((swift_name("Created")));
-@property (readonly) KATKtor_httpHttpStatusCode *ExpectationFailed __attribute__((swift_name("ExpectationFailed")));
-@property (readonly) KATKtor_httpHttpStatusCode *FailedDependency __attribute__((swift_name("FailedDependency")));
-@property (readonly) KATKtor_httpHttpStatusCode *Forbidden __attribute__((swift_name("Forbidden")));
-@property (readonly) KATKtor_httpHttpStatusCode *Found __attribute__((swift_name("Found")));
-@property (readonly) KATKtor_httpHttpStatusCode *GatewayTimeout __attribute__((swift_name("GatewayTimeout")));
-@property (readonly) KATKtor_httpHttpStatusCode *Gone __attribute__((swift_name("Gone")));
-@property (readonly) KATKtor_httpHttpStatusCode *InsufficientStorage __attribute__((swift_name("InsufficientStorage")));
-@property (readonly) KATKtor_httpHttpStatusCode *InternalServerError __attribute__((swift_name("InternalServerError")));
-@property (readonly) KATKtor_httpHttpStatusCode *LengthRequired __attribute__((swift_name("LengthRequired")));
-@property (readonly) KATKtor_httpHttpStatusCode *Locked __attribute__((swift_name("Locked")));
-@property (readonly) KATKtor_httpHttpStatusCode *MethodNotAllowed __attribute__((swift_name("MethodNotAllowed")));
-@property (readonly) KATKtor_httpHttpStatusCode *MovedPermanently __attribute__((swift_name("MovedPermanently")));
-@property (readonly) KATKtor_httpHttpStatusCode *MultiStatus __attribute__((swift_name("MultiStatus")));
-@property (readonly) KATKtor_httpHttpStatusCode *MultipleChoices __attribute__((swift_name("MultipleChoices")));
-@property (readonly) KATKtor_httpHttpStatusCode *NoContent __attribute__((swift_name("NoContent")));
-@property (readonly) KATKtor_httpHttpStatusCode *NonAuthoritativeInformation __attribute__((swift_name("NonAuthoritativeInformation")));
-@property (readonly) KATKtor_httpHttpStatusCode *NotAcceptable __attribute__((swift_name("NotAcceptable")));
-@property (readonly) KATKtor_httpHttpStatusCode *NotFound __attribute__((swift_name("NotFound")));
-@property (readonly) KATKtor_httpHttpStatusCode *NotImplemented __attribute__((swift_name("NotImplemented")));
-@property (readonly) KATKtor_httpHttpStatusCode *NotModified __attribute__((swift_name("NotModified")));
-@property (readonly) KATKtor_httpHttpStatusCode *OK __attribute__((swift_name("OK")));
-@property (readonly) KATKtor_httpHttpStatusCode *PartialContent __attribute__((swift_name("PartialContent")));
-@property (readonly) KATKtor_httpHttpStatusCode *PayloadTooLarge __attribute__((swift_name("PayloadTooLarge")));
-@property (readonly) KATKtor_httpHttpStatusCode *PaymentRequired __attribute__((swift_name("PaymentRequired")));
-@property (readonly) KATKtor_httpHttpStatusCode *PermanentRedirect __attribute__((swift_name("PermanentRedirect")));
-@property (readonly) KATKtor_httpHttpStatusCode *PreconditionFailed __attribute__((swift_name("PreconditionFailed")));
-@property (readonly) KATKtor_httpHttpStatusCode *Processing __attribute__((swift_name("Processing")));
-@property (readonly) KATKtor_httpHttpStatusCode *ProxyAuthenticationRequired __attribute__((swift_name("ProxyAuthenticationRequired")));
-@property (readonly) KATKtor_httpHttpStatusCode *RequestHeaderFieldTooLarge __attribute__((swift_name("RequestHeaderFieldTooLarge")));
-@property (readonly) KATKtor_httpHttpStatusCode *RequestTimeout __attribute__((swift_name("RequestTimeout")));
-@property (readonly) KATKtor_httpHttpStatusCode *RequestURITooLong __attribute__((swift_name("RequestURITooLong")));
-@property (readonly) KATKtor_httpHttpStatusCode *RequestedRangeNotSatisfiable __attribute__((swift_name("RequestedRangeNotSatisfiable")));
-@property (readonly) KATKtor_httpHttpStatusCode *ResetContent __attribute__((swift_name("ResetContent")));
-@property (readonly) KATKtor_httpHttpStatusCode *SeeOther __attribute__((swift_name("SeeOther")));
-@property (readonly) KATKtor_httpHttpStatusCode *ServiceUnavailable __attribute__((swift_name("ServiceUnavailable")));
-@property (readonly) KATKtor_httpHttpStatusCode *SwitchProxy __attribute__((swift_name("SwitchProxy")));
-@property (readonly) KATKtor_httpHttpStatusCode *SwitchingProtocols __attribute__((swift_name("SwitchingProtocols")));
-@property (readonly) KATKtor_httpHttpStatusCode *TemporaryRedirect __attribute__((swift_name("TemporaryRedirect")));
-@property (readonly) KATKtor_httpHttpStatusCode *TooManyRequests __attribute__((swift_name("TooManyRequests")));
-@property (readonly) KATKtor_httpHttpStatusCode *Unauthorized __attribute__((swift_name("Unauthorized")));
-@property (readonly) KATKtor_httpHttpStatusCode *UnprocessableEntity __attribute__((swift_name("UnprocessableEntity")));
-@property (readonly) KATKtor_httpHttpStatusCode *UnsupportedMediaType __attribute__((swift_name("UnsupportedMediaType")));
-@property (readonly) KATKtor_httpHttpStatusCode *UpgradeRequired __attribute__((swift_name("UpgradeRequired")));
-@property (readonly) KATKtor_httpHttpStatusCode *UseProxy __attribute__((swift_name("UseProxy")));
-@property (readonly) KATKtor_httpHttpStatusCode *VariantAlsoNegotiates __attribute__((swift_name("VariantAlsoNegotiates")));
-@property (readonly) KATKtor_httpHttpStatusCode *VersionNotSupported __attribute__((swift_name("VersionNotSupported")));
-@property (readonly) NSArray<KATKtor_httpHttpStatusCode *> *allStatusCodes __attribute__((swift_name("allStatusCodes")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_utilsGMTDate.Companion")))
-@interface KATKtor_utilsGMTDateCompanion : KATBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) KATKtor_utilsGMTDateCompanion *shared __attribute__((swift_name("shared")));
-@property (readonly) KATKtor_utilsGMTDate *START __attribute__((swift_name("START")));
-@end;
-
-__attribute__((swift_name("KotlinEnum")))
-@interface KATKotlinEnum<E> : KATBase <KATKotlinComparable>
-- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) KATKotlinEnumCompanion *companion __attribute__((swift_name("companion")));
-- (int32_t)compareToOther:(E)other __attribute__((swift_name("compareTo(other:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) NSString *name __attribute__((swift_name("name")));
-@property (readonly) int32_t ordinal __attribute__((swift_name("ordinal")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_utilsWeekDay")))
-@interface KATKtor_utilsWeekDay : KATKotlinEnum<KATKtor_utilsWeekDay *>
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (class, readonly, getter=companion) KATKtor_utilsWeekDayCompanion *companion __attribute__((swift_name("companion")));
-@property (class, readonly) KATKtor_utilsWeekDay *monday __attribute__((swift_name("monday")));
-@property (class, readonly) KATKtor_utilsWeekDay *tuesday __attribute__((swift_name("tuesday")));
-@property (class, readonly) KATKtor_utilsWeekDay *wednesday __attribute__((swift_name("wednesday")));
-@property (class, readonly) KATKtor_utilsWeekDay *thursday __attribute__((swift_name("thursday")));
-@property (class, readonly) KATKtor_utilsWeekDay *friday __attribute__((swift_name("friday")));
-@property (class, readonly) KATKtor_utilsWeekDay *saturday __attribute__((swift_name("saturday")));
-@property (class, readonly) KATKtor_utilsWeekDay *sunday __attribute__((swift_name("sunday")));
-+ (KATKotlinArray<KATKtor_utilsWeekDay *> *)values __attribute__((swift_name("values()")));
-@property (readonly) NSString *value __attribute__((swift_name("value")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_utilsMonth")))
-@interface KATKtor_utilsMonth : KATKotlinEnum<KATKtor_utilsMonth *>
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (class, readonly, getter=companion) KATKtor_utilsMonthCompanion *companion __attribute__((swift_name("companion")));
-@property (class, readonly) KATKtor_utilsMonth *january __attribute__((swift_name("january")));
-@property (class, readonly) KATKtor_utilsMonth *february __attribute__((swift_name("february")));
-@property (class, readonly) KATKtor_utilsMonth *march __attribute__((swift_name("march")));
-@property (class, readonly) KATKtor_utilsMonth *april __attribute__((swift_name("april")));
-@property (class, readonly) KATKtor_utilsMonth *may __attribute__((swift_name("may")));
-@property (class, readonly) KATKtor_utilsMonth *june __attribute__((swift_name("june")));
-@property (class, readonly) KATKtor_utilsMonth *july __attribute__((swift_name("july")));
-@property (class, readonly) KATKtor_utilsMonth *august __attribute__((swift_name("august")));
-@property (class, readonly) KATKtor_utilsMonth *september __attribute__((swift_name("september")));
-@property (class, readonly) KATKtor_utilsMonth *october __attribute__((swift_name("october")));
-@property (class, readonly) KATKtor_utilsMonth *november __attribute__((swift_name("november")));
-@property (class, readonly) KATKtor_utilsMonth *december __attribute__((swift_name("december")));
-+ (KATKotlinArray<KATKtor_utilsMonth *> *)values __attribute__((swift_name("values()")));
-@property (readonly) NSString *value __attribute__((swift_name("value")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_httpHttpProtocolVersion.Companion")))
-@interface KATKtor_httpHttpProtocolVersionCompanion : KATBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) KATKtor_httpHttpProtocolVersionCompanion *shared __attribute__((swift_name("shared")));
-- (KATKtor_httpHttpProtocolVersion *)fromValueName:(NSString *)name major:(int32_t)major minor:(int32_t)minor __attribute__((swift_name("fromValue(name:major:minor:)")));
-- (KATKtor_httpHttpProtocolVersion *)parseValue:(id)value __attribute__((swift_name("parse(value:)")));
-@property (readonly) KATKtor_httpHttpProtocolVersion *HTTP_1_0 __attribute__((swift_name("HTTP_1_0")));
-@property (readonly) KATKtor_httpHttpProtocolVersion *HTTP_1_1 __attribute__((swift_name("HTTP_1_1")));
-@property (readonly) KATKtor_httpHttpProtocolVersion *HTTP_2_0 __attribute__((swift_name("HTTP_2_0")));
-@property (readonly) KATKtor_httpHttpProtocolVersion *QUIC __attribute__((swift_name("QUIC")));
-@property (readonly) KATKtor_httpHttpProtocolVersion *SPDY_3 __attribute__((swift_name("SPDY_3")));
-@end;
-
-__attribute__((swift_name("Ktor_client_coreHttpClientPlugin")))
-@protocol KATKtor_client_coreHttpClientPlugin
-@required
-- (void)installPlugin:(id)plugin scope:(KATKtor_client_coreHttpClient *)scope __attribute__((swift_name("install(plugin:scope:)")));
-- (id)prepareBlock:(void (^)(id))block __attribute__((swift_name("prepare(block:)")));
-@property (readonly) KATKtor_utilsAttributeKey<id> *key __attribute__((swift_name("key")));
-@end;
-
-__attribute__((swift_name("Ktor_eventsEventDefinition")))
-@interface KATKtor_eventsEventDefinition<T> : KATBase
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -1448,6 +1040,13 @@ __attribute__((swift_name("Ktor_client_coreHttpSendPipeline.Phases")))
 @property (readonly) KATKtor_utilsPipelinePhase *State __attribute__((swift_name("State")));
 @end;
 
+__attribute__((swift_name("KotlinMapEntry")))
+@protocol KATKotlinMapEntry
+@required
+@property (readonly) id _Nullable key __attribute__((swift_name("key")));
+@property (readonly) id _Nullable value __attribute__((swift_name("value")));
+@end;
+
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Ktor_httpURLProtocol.Companion")))
 @interface KATKtor_httpURLProtocolCompanion : KATBase
@@ -1464,99 +1063,196 @@ __attribute__((swift_name("Ktor_httpURLProtocol.Companion")))
 @property (readonly) NSDictionary<NSString *, KATKtor_httpURLProtocol *> *byName __attribute__((swift_name("byName")));
 @end;
 
+__attribute__((swift_name("Kotlinx_serialization_coreSerializersModuleCollector")))
+@protocol KATKotlinx_serialization_coreSerializersModuleCollector
+@required
+- (void)contextualKClass:(id<KATKotlinKClass>)kClass provider:(id<KATKotlinx_serialization_coreKSerializer> (^)(NSArray<id<KATKotlinx_serialization_coreKSerializer>> *))provider __attribute__((swift_name("contextual(kClass:provider:)")));
+- (void)contextualKClass:(id<KATKotlinKClass>)kClass serializer:(id<KATKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("contextual(kClass:serializer:)")));
+- (void)polymorphicBaseClass:(id<KATKotlinKClass>)baseClass actualClass:(id<KATKotlinKClass>)actualClass actualSerializer:(id<KATKotlinx_serialization_coreKSerializer>)actualSerializer __attribute__((swift_name("polymorphic(baseClass:actualClass:actualSerializer:)")));
+- (void)polymorphicDefaultBaseClass:(id<KATKotlinKClass>)baseClass defaultDeserializerProvider:(id<KATKotlinx_serialization_coreDeserializationStrategy> _Nullable (^)(NSString * _Nullable))defaultDeserializerProvider __attribute__((swift_name("polymorphicDefault(baseClass:defaultDeserializerProvider:)")));
+- (void)polymorphicDefaultDeserializerBaseClass:(id<KATKotlinKClass>)baseClass defaultDeserializerProvider:(id<KATKotlinx_serialization_coreDeserializationStrategy> _Nullable (^)(NSString * _Nullable))defaultDeserializerProvider __attribute__((swift_name("polymorphicDefaultDeserializer(baseClass:defaultDeserializerProvider:)")));
+- (void)polymorphicDefaultSerializerBaseClass:(id<KATKotlinKClass>)baseClass defaultSerializerProvider:(id<KATKotlinx_serialization_coreSerializationStrategy> _Nullable (^)(id))defaultSerializerProvider __attribute__((swift_name("polymorphicDefaultSerializer(baseClass:defaultSerializerProvider:)")));
+@end;
+
+__attribute__((swift_name("KotlinKDeclarationContainer")))
+@protocol KATKotlinKDeclarationContainer
+@required
+@end;
+
+__attribute__((swift_name("KotlinKAnnotatedElement")))
+@protocol KATKotlinKAnnotatedElement
+@required
+@end;
+
+__attribute__((swift_name("KotlinKClassifier")))
+@protocol KATKotlinKClassifier
+@required
+@end;
+
+__attribute__((swift_name("KotlinKClass")))
+@protocol KATKotlinKClass <KATKotlinKDeclarationContainer, KATKotlinKAnnotatedElement, KATKotlinKClassifier>
+@required
+- (BOOL)isInstanceValue:(id _Nullable)value __attribute__((swift_name("isInstance(value:)")));
+@property (readonly) NSString * _Nullable qualifiedName __attribute__((swift_name("qualifiedName")));
+@property (readonly) NSString * _Nullable simpleName __attribute__((swift_name("simpleName")));
+@end;
+
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_httpHeaderValueParam")))
-@interface KATKtor_httpHeaderValueParam : KATBase
-- (instancetype)initWithName:(NSString *)name value:(NSString *)value __attribute__((swift_name("init(name:value:)"))) __attribute__((objc_designated_initializer));
+__attribute__((swift_name("Kotlinx_serialization_jsonJsonElement.Companion")))
+@interface KATKotlinx_serialization_jsonJsonElementCompanion : KATBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) KATKotlinx_serialization_jsonJsonElementCompanion *shared __attribute__((swift_name("shared")));
+- (id<KATKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_httpHttpMethod")))
+@interface KATKtor_httpHttpMethod : KATBase
+- (instancetype)initWithValue:(NSString *)value __attribute__((swift_name("init(value:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) KATKtor_httpHttpMethodCompanion *companion __attribute__((swift_name("companion")));
 - (NSString *)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString *)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
-- (KATKtor_httpHeaderValueParam *)doCopyName:(NSString *)name value:(NSString *)value __attribute__((swift_name("doCopy(name:value:)")));
+- (KATKtor_httpHttpMethod *)doCopyValue:(NSString *)value __attribute__((swift_name("doCopy(value:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) NSString *name __attribute__((swift_name("name")));
 @property (readonly) NSString *value __attribute__((swift_name("value")));
 @end;
 
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_httpHeaderValueWithParameters.Companion")))
-@interface KATKtor_httpHeaderValueWithParametersCompanion : KATBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) KATKtor_httpHeaderValueWithParametersCompanion *shared __attribute__((swift_name("shared")));
-- (id _Nullable)parseValue:(NSString *)value init:(id _Nullable (^)(NSString *, NSArray<KATKtor_httpHeaderValueParam *> *))init __attribute__((swift_name("parse(value:init:)")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_httpContentType.Companion")))
-@interface KATKtor_httpContentTypeCompanion : KATBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) KATKtor_httpContentTypeCompanion *shared __attribute__((swift_name("shared")));
-- (KATKtor_httpContentType *)parseValue:(NSString *)value __attribute__((swift_name("parse(value:)")));
-@property (readonly) KATKtor_httpContentType *Any __attribute__((swift_name("Any")));
-@end;
-
-__attribute__((swift_name("Kotlinx_coroutines_coreParentJob")))
-@protocol KATKotlinx_coroutines_coreParentJob <KATKotlinx_coroutines_coreJob>
+__attribute__((swift_name("Ktor_httpHeaders")))
+@protocol KATKtor_httpHeaders <KATKtor_utilsStringValues>
 @required
-- (KATKotlinCancellationException *)getChildJobCancellationCause __attribute__((swift_name("getChildJobCancellationCause()")));
 @end;
 
-__attribute__((swift_name("Kotlinx_coroutines_coreSelectInstance")))
-@protocol KATKotlinx_coroutines_coreSelectInstance
-@required
-- (void)disposeOnSelectHandle:(id<KATKotlinx_coroutines_coreDisposableHandle>)handle __attribute__((swift_name("disposeOnSelect(handle:)")));
-- (id _Nullable)performAtomicTrySelectDesc:(KATKotlinx_coroutines_coreAtomicDesc *)desc __attribute__((swift_name("performAtomicTrySelect(desc:)")));
-- (void)resumeSelectWithExceptionException:(KATKotlinThrowable *)exception __attribute__((swift_name("resumeSelectWithException(exception:)")));
-- (BOOL)trySelect __attribute__((swift_name("trySelect()")));
-- (id _Nullable)trySelectOtherOtherOp:(KATKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp * _Nullable)otherOp __attribute__((swift_name("trySelectOther(otherOp:)")));
-@property (readonly) id<KATKotlinContinuation> completion __attribute__((swift_name("completion")));
-@property (readonly) BOOL isSelected __attribute__((swift_name("isSelected")));
+__attribute__((swift_name("Ktor_httpOutgoingContent")))
+@interface KATKtor_httpOutgoingContent : KATBase
+- (id _Nullable)getPropertyKey:(KATKtor_utilsAttributeKey<id> *)key __attribute__((swift_name("getProperty(key:)")));
+- (void)setPropertyKey:(KATKtor_utilsAttributeKey<id> *)key value:(id _Nullable)value __attribute__((swift_name("setProperty(key:value:)")));
+- (id<KATKtor_httpHeaders> _Nullable)trailers __attribute__((swift_name("trailers()")));
+@property (readonly) KATLong * _Nullable contentLength __attribute__((swift_name("contentLength")));
+@property (readonly) KATKtor_httpContentType * _Nullable contentType __attribute__((swift_name("contentType")));
+@property (readonly) id<KATKtor_httpHeaders> headers __attribute__((swift_name("headers")));
+@property (readonly) KATKtor_httpHttpStatusCode * _Nullable status __attribute__((swift_name("status")));
 @end;
 
-__attribute__((swift_name("KotlinSuspendFunction0")))
-@protocol KATKotlinSuspendFunction0 <KATKotlinFunction>
+__attribute__((swift_name("Kotlinx_coroutines_coreJob")))
+@protocol KATKotlinx_coroutines_coreJob <KATKotlinCoroutineContextElement>
 @required
+- (id<KATKotlinx_coroutines_coreChildHandle>)attachChildChild:(id<KATKotlinx_coroutines_coreChildJob>)child __attribute__((swift_name("attachChild(child:)")));
+- (void)cancelCause:(KATKotlinCancellationException * _Nullable)cause __attribute__((swift_name("cancel(cause:)")));
+- (KATKotlinCancellationException *)getCancellationException __attribute__((swift_name("getCancellationException()")));
+- (id<KATKotlinx_coroutines_coreDisposableHandle>)invokeOnCompletionOnCancelling:(BOOL)onCancelling invokeImmediately:(BOOL)invokeImmediately handler:(void (^)(KATKotlinThrowable * _Nullable))handler __attribute__((swift_name("invokeOnCompletion(onCancelling:invokeImmediately:handler:)")));
+- (id<KATKotlinx_coroutines_coreDisposableHandle>)invokeOnCompletionHandler:(void (^)(KATKotlinThrowable * _Nullable))handler __attribute__((swift_name("invokeOnCompletion(handler:)")));
 
 /**
  @note This method converts instances of CancellationException to errors.
  Other uncaught Kotlin exceptions are fatal.
 */
-- (void)invokeWithCompletionHandler:(void (^)(id _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("invoke(completionHandler:)")));
+- (void)joinWithCompletionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("join(completionHandler:)")));
+- (id<KATKotlinx_coroutines_coreJob>)plusOther_:(id<KATKotlinx_coroutines_coreJob>)other __attribute__((swift_name("plus(other_:)"))) __attribute__((unavailable("Operator '+' on two Job objects is meaningless. Job is a coroutine context element and `+` is a set-sum operator for coroutine contexts. The job to the right of `+` just replaces the job the left of `+`.")));
+- (BOOL)start __attribute__((swift_name("start()")));
+@property (readonly) id<KATKotlinSequence> children __attribute__((swift_name("children")));
+@property (readonly) BOOL isActive __attribute__((swift_name("isActive")));
+@property (readonly) BOOL isCancelled __attribute__((swift_name("isCancelled")));
+@property (readonly) BOOL isCompleted __attribute__((swift_name("isCompleted")));
+@property (readonly) id<KATKotlinx_coroutines_coreSelectClause0> onJoin __attribute__((swift_name("onJoin")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("KotlinEnumCompanion")))
-@interface KATKotlinEnumCompanion : KATBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) KATKotlinEnumCompanion *shared __attribute__((swift_name("shared")));
+__attribute__((swift_name("Ktor_httpHttpStatusCode")))
+@interface KATKtor_httpHttpStatusCode : KATBase
+- (instancetype)initWithValue:(int32_t)value description:(NSString *)description __attribute__((swift_name("init(value:description:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) KATKtor_httpHttpStatusCodeCompanion *companion __attribute__((swift_name("companion")));
+- (int32_t)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
+- (NSString *)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
+- (KATKtor_httpHttpStatusCode *)doCopyValue:(int32_t)value description:(NSString *)description __attribute__((swift_name("doCopy(value:description:)")));
+- (KATKtor_httpHttpStatusCode *)descriptionValue:(NSString *)value __attribute__((swift_name("description(value:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString *description_ __attribute__((swift_name("description_")));
+@property (readonly) int32_t value __attribute__((swift_name("value")));
+@end;
+
+__attribute__((swift_name("KotlinComparable")))
+@protocol KATKotlinComparable
+@required
+- (int32_t)compareToOther:(id _Nullable)other __attribute__((swift_name("compareTo(other:)")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_utilsWeekDay.Companion")))
-@interface KATKtor_utilsWeekDayCompanion : KATBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) KATKtor_utilsWeekDayCompanion *shared __attribute__((swift_name("shared")));
-- (KATKtor_utilsWeekDay *)fromOrdinal:(int32_t)ordinal __attribute__((swift_name("from(ordinal:)")));
-- (KATKtor_utilsWeekDay *)fromValue:(NSString *)value __attribute__((swift_name("from(value:)")));
+__attribute__((swift_name("Ktor_utilsGMTDate")))
+@interface KATKtor_utilsGMTDate : KATBase <KATKotlinComparable>
+@property (class, readonly, getter=companion) KATKtor_utilsGMTDateCompanion *companion __attribute__((swift_name("companion")));
+- (int32_t)compareToOther:(KATKtor_utilsGMTDate *)other __attribute__((swift_name("compareTo(other:)")));
+- (int32_t)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
+- (int32_t)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
+- (int32_t)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
+- (KATKtor_utilsWeekDay *)component4 __attribute__((swift_name("component4()"))) __attribute__((deprecated("use corresponding property instead")));
+- (int32_t)component5 __attribute__((swift_name("component5()"))) __attribute__((deprecated("use corresponding property instead")));
+- (int32_t)component6 __attribute__((swift_name("component6()"))) __attribute__((deprecated("use corresponding property instead")));
+- (KATKtor_utilsMonth *)component7 __attribute__((swift_name("component7()"))) __attribute__((deprecated("use corresponding property instead")));
+- (int32_t)component8 __attribute__((swift_name("component8()"))) __attribute__((deprecated("use corresponding property instead")));
+- (int64_t)component9 __attribute__((swift_name("component9()"))) __attribute__((deprecated("use corresponding property instead")));
+- (KATKtor_utilsGMTDate *)doCopySeconds:(int32_t)seconds minutes:(int32_t)minutes hours:(int32_t)hours dayOfWeek:(KATKtor_utilsWeekDay *)dayOfWeek dayOfMonth:(int32_t)dayOfMonth dayOfYear:(int32_t)dayOfYear month:(KATKtor_utilsMonth *)month year:(int32_t)year timestamp:(int64_t)timestamp __attribute__((swift_name("doCopy(seconds:minutes:hours:dayOfWeek:dayOfMonth:dayOfYear:month:year:timestamp:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) int32_t dayOfMonth __attribute__((swift_name("dayOfMonth")));
+@property (readonly) KATKtor_utilsWeekDay *dayOfWeek __attribute__((swift_name("dayOfWeek")));
+@property (readonly) int32_t dayOfYear __attribute__((swift_name("dayOfYear")));
+@property (readonly) int32_t hours __attribute__((swift_name("hours")));
+@property (readonly) int32_t minutes __attribute__((swift_name("minutes")));
+@property (readonly) KATKtor_utilsMonth *month __attribute__((swift_name("month")));
+@property (readonly) int32_t seconds __attribute__((swift_name("seconds")));
+@property (readonly) int64_t timestamp __attribute__((swift_name("timestamp")));
+@property (readonly) int32_t year __attribute__((swift_name("year")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_utilsMonth.Companion")))
-@interface KATKtor_utilsMonthCompanion : KATBase
+__attribute__((swift_name("Ktor_httpHttpProtocolVersion")))
+@interface KATKtor_httpHttpProtocolVersion : KATBase
+- (instancetype)initWithName:(NSString *)name major:(int32_t)major minor:(int32_t)minor __attribute__((swift_name("init(name:major:minor:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) KATKtor_httpHttpProtocolVersionCompanion *companion __attribute__((swift_name("companion")));
+- (NSString *)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
+- (int32_t)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
+- (int32_t)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
+- (KATKtor_httpHttpProtocolVersion *)doCopyName:(NSString *)name major:(int32_t)major minor:(int32_t)minor __attribute__((swift_name("doCopy(name:major:minor:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) int32_t major __attribute__((swift_name("major")));
+@property (readonly) int32_t minor __attribute__((swift_name("minor")));
+@property (readonly) NSString *name __attribute__((swift_name("name")));
+@end;
+
+__attribute__((swift_name("KotlinContinuation")))
+@protocol KATKotlinContinuation
+@required
+- (void)resumeWithResult:(id _Nullable)result __attribute__((swift_name("resumeWith(result:)")));
+@property (readonly) id<KATKotlinCoroutineContext> context __attribute__((swift_name("context")));
+@end;
+
+__attribute__((swift_name("KotlinAbstractCoroutineContextKey")))
+@interface KATKotlinAbstractCoroutineContextKey<B, E> : KATBase <KATKotlinCoroutineContextKey>
+- (instancetype)initWithBaseKey:(id<KATKotlinCoroutineContextKey>)baseKey safeCast:(E _Nullable (^)(id<KATKotlinCoroutineContextElement>))safeCast __attribute__((swift_name("init(baseKey:safeCast:)"))) __attribute__((objc_designated_initializer));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Kotlinx_coroutines_coreCoroutineDispatcher.Key")))
+@interface KATKotlinx_coroutines_coreCoroutineDispatcherKey : KATKotlinAbstractCoroutineContextKey<id<KATKotlinContinuationInterceptor>, KATKotlinx_coroutines_coreCoroutineDispatcher *>
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) KATKtor_utilsMonthCompanion *shared __attribute__((swift_name("shared")));
-- (KATKtor_utilsMonth *)fromOrdinal:(int32_t)ordinal __attribute__((swift_name("from(ordinal:)")));
-- (KATKtor_utilsMonth *)fromValue:(NSString *)value __attribute__((swift_name("from(value:)")));
+- (instancetype)initWithBaseKey:(id<KATKotlinCoroutineContextKey>)baseKey safeCast:(id<KATKotlinCoroutineContextElement> _Nullable (^)(id<KATKotlinCoroutineContextElement>))safeCast __attribute__((swift_name("init(baseKey:safeCast:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
++ (instancetype)key __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) KATKotlinx_coroutines_coreCoroutineDispatcherKey *shared __attribute__((swift_name("shared")));
+@end;
+
+__attribute__((swift_name("Kotlinx_coroutines_coreRunnable")))
+@protocol KATKotlinx_coroutines_coreRunnable
+@required
+- (void)run __attribute__((swift_name("run()")));
 @end;
 
 __attribute__((swift_name("Ktor_ioByteReadChannel")))
@@ -1725,7 +1421,7 @@ __attribute__((swift_name("Ktor_utilsStringValuesBuilder")))
 - (NSSet<id<KATKotlinMapEntry>> *)entries __attribute__((swift_name("entries()")));
 - (NSString * _Nullable)getName:(NSString *)name __attribute__((swift_name("get(name:)")));
 - (NSArray<NSString *> * _Nullable)getAllName:(NSString *)name __attribute__((swift_name("getAll(name:)")));
-- (BOOL)isEmpty __attribute__((swift_name("isEmpty()")));
+- (BOOL)isEmpty_ __attribute__((swift_name("isEmpty()")));
 - (NSSet<NSString *> *)names __attribute__((swift_name("names()")));
 - (void)removeName:(NSString *)name __attribute__((swift_name("remove(name:)")));
 - (BOOL)removeName:(NSString *)name value:(NSString *)value __attribute__((swift_name("remove(name:value:)")));
@@ -1749,7 +1445,7 @@ __attribute__((swift_name("Ktor_utilsStringValuesBuilderImpl")))
 - (NSSet<id<KATKotlinMapEntry>> *)entries __attribute__((swift_name("entries()")));
 - (NSString * _Nullable)getName:(NSString *)name __attribute__((swift_name("get(name:)")));
 - (NSArray<NSString *> * _Nullable)getAllName:(NSString *)name __attribute__((swift_name("getAll(name:)")));
-- (BOOL)isEmpty __attribute__((swift_name("isEmpty()")));
+- (BOOL)isEmpty_ __attribute__((swift_name("isEmpty()")));
 - (NSSet<NSString *> *)names __attribute__((swift_name("names()")));
 - (void)removeName:(NSString *)name __attribute__((swift_name("remove(name:)")));
 - (BOOL)removeName:(NSString *)name value:(NSString *)value __attribute__((swift_name("remove(name:value:)")));
@@ -1839,38 +1535,215 @@ __attribute__((swift_name("Ktor_client_coreHttpRequest")))
 @property (readonly) KATKtor_httpUrl *url __attribute__((swift_name("url")));
 @end;
 
-__attribute__((swift_name("Kotlinx_coroutines_coreAtomicDesc")))
-@interface KATKotlinx_coroutines_coreAtomicDesc : KATBase
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (void)completeOp:(KATKotlinx_coroutines_coreAtomicOp<id> *)op failure:(id _Nullable)failure __attribute__((swift_name("complete(op:failure:)")));
-- (id _Nullable)prepareOp:(KATKotlinx_coroutines_coreAtomicOp<id> *)op __attribute__((swift_name("prepare(op:)")));
-@property KATKotlinx_coroutines_coreAtomicOp<id> *atomicOp __attribute__((swift_name("atomicOp")));
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_httpHttpMethod.Companion")))
+@interface KATKtor_httpHttpMethodCompanion : KATBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) KATKtor_httpHttpMethodCompanion *shared __attribute__((swift_name("shared")));
+- (KATKtor_httpHttpMethod *)parseMethod:(NSString *)method __attribute__((swift_name("parse(method:)")));
+@property (readonly) NSArray<KATKtor_httpHttpMethod *> *DefaultMethods __attribute__((swift_name("DefaultMethods")));
+@property (readonly) KATKtor_httpHttpMethod *Delete __attribute__((swift_name("Delete")));
+@property (readonly) KATKtor_httpHttpMethod *Get __attribute__((swift_name("Get")));
+@property (readonly) KATKtor_httpHttpMethod *Head __attribute__((swift_name("Head")));
+@property (readonly) KATKtor_httpHttpMethod *Options __attribute__((swift_name("Options")));
+@property (readonly) KATKtor_httpHttpMethod *Patch __attribute__((swift_name("Patch")));
+@property (readonly) KATKtor_httpHttpMethod *Post __attribute__((swift_name("Post")));
+@property (readonly) KATKtor_httpHttpMethod *Put __attribute__((swift_name("Put")));
 @end;
 
-__attribute__((swift_name("Kotlinx_coroutines_coreOpDescriptor")))
-@interface KATKotlinx_coroutines_coreOpDescriptor : KATBase
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (BOOL)isEarlierThanThat:(KATKotlinx_coroutines_coreOpDescriptor *)that __attribute__((swift_name("isEarlierThan(that:)")));
-- (id _Nullable)performAffected:(id _Nullable)affected __attribute__((swift_name("perform(affected:)")));
+__attribute__((swift_name("Ktor_httpHeaderValueWithParameters")))
+@interface KATKtor_httpHeaderValueWithParameters : KATBase
+- (instancetype)initWithContent:(NSString *)content parameters:(NSArray<KATKtor_httpHeaderValueParam *> *)parameters __attribute__((swift_name("init(content:parameters:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) KATKtor_httpHeaderValueWithParametersCompanion *companion __attribute__((swift_name("companion")));
+- (NSString * _Nullable)parameterName:(NSString *)name __attribute__((swift_name("parameter(name:)")));
 - (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) KATKotlinx_coroutines_coreAtomicOp<id> * _Nullable atomicOp __attribute__((swift_name("atomicOp")));
+@property (readonly) NSString *content __attribute__((swift_name("content")));
+@property (readonly) NSArray<KATKtor_httpHeaderValueParam *> *parameters __attribute__((swift_name("parameters")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Kotlinx_coroutines_coreLockFreeLinkedListNode.PrepareOp")))
-@interface KATKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp : KATKotlinx_coroutines_coreOpDescriptor
-- (instancetype)initWithAffected:(KATKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(KATKotlinx_coroutines_coreLockFreeLinkedListNode *)next desc:(KATKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc *)desc __attribute__((swift_name("init(affected:next:desc:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-+ (instancetype)new __attribute__((unavailable));
-- (void)finishPrepare __attribute__((swift_name("finishPrepare()")));
-- (id _Nullable)performAffected:(id _Nullable)affected __attribute__((swift_name("perform(affected:)")));
+__attribute__((swift_name("Ktor_httpContentType")))
+@interface KATKtor_httpContentType : KATKtor_httpHeaderValueWithParameters
+- (instancetype)initWithContentType:(NSString *)contentType contentSubtype:(NSString *)contentSubtype parameters:(NSArray<KATKtor_httpHeaderValueParam *> *)parameters __attribute__((swift_name("init(contentType:contentSubtype:parameters:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithContent:(NSString *)content parameters:(NSArray<KATKtor_httpHeaderValueParam *> *)parameters __attribute__((swift_name("init(content:parameters:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly, getter=companion) KATKtor_httpContentTypeCompanion *companion __attribute__((swift_name("companion")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (BOOL)matchPattern:(KATKtor_httpContentType *)pattern __attribute__((swift_name("match(pattern:)")));
+- (BOOL)matchPattern_:(NSString *)pattern __attribute__((swift_name("match(pattern_:)")));
+- (KATKtor_httpContentType *)withParameterName:(NSString *)name value:(NSString *)value __attribute__((swift_name("withParameter(name:value:)")));
+- (KATKtor_httpContentType *)withoutParameters __attribute__((swift_name("withoutParameters()")));
+@property (readonly) NSString *contentSubtype __attribute__((swift_name("contentSubtype")));
+@property (readonly) NSString *contentType __attribute__((swift_name("contentType")));
+@end;
+
+__attribute__((swift_name("Kotlinx_coroutines_coreChildHandle")))
+@protocol KATKotlinx_coroutines_coreChildHandle <KATKotlinx_coroutines_coreDisposableHandle>
+@required
+- (BOOL)childCancelledCause:(KATKotlinThrowable *)cause __attribute__((swift_name("childCancelled(cause:)")));
+@property (readonly) id<KATKotlinx_coroutines_coreJob> _Nullable parent __attribute__((swift_name("parent")));
+@end;
+
+__attribute__((swift_name("Kotlinx_coroutines_coreChildJob")))
+@protocol KATKotlinx_coroutines_coreChildJob <KATKotlinx_coroutines_coreJob>
+@required
+- (void)parentCancelledParentJob:(id<KATKotlinx_coroutines_coreParentJob>)parentJob __attribute__((swift_name("parentCancelled(parentJob:)")));
+@end;
+
+__attribute__((swift_name("KotlinSequence")))
+@protocol KATKotlinSequence
+@required
+- (id<KATKotlinIterator>)iterator __attribute__((swift_name("iterator()")));
+@end;
+
+__attribute__((swift_name("Kotlinx_coroutines_coreSelectClause0")))
+@protocol KATKotlinx_coroutines_coreSelectClause0
+@required
+- (void)registerSelectClause0Select:(id<KATKotlinx_coroutines_coreSelectInstance>)select block:(id<KATKotlinSuspendFunction0>)block __attribute__((swift_name("registerSelectClause0(select:block:)")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_httpHttpStatusCode.Companion")))
+@interface KATKtor_httpHttpStatusCodeCompanion : KATBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) KATKtor_httpHttpStatusCodeCompanion *shared __attribute__((swift_name("shared")));
+- (KATKtor_httpHttpStatusCode *)fromValueValue:(int32_t)value __attribute__((swift_name("fromValue(value:)")));
+@property (readonly) KATKtor_httpHttpStatusCode *Accepted __attribute__((swift_name("Accepted")));
+@property (readonly) KATKtor_httpHttpStatusCode *BadGateway __attribute__((swift_name("BadGateway")));
+@property (readonly) KATKtor_httpHttpStatusCode *BadRequest __attribute__((swift_name("BadRequest")));
+@property (readonly) KATKtor_httpHttpStatusCode *Conflict __attribute__((swift_name("Conflict")));
+@property (readonly) KATKtor_httpHttpStatusCode *Continue __attribute__((swift_name("Continue")));
+@property (readonly) KATKtor_httpHttpStatusCode *Created __attribute__((swift_name("Created")));
+@property (readonly) KATKtor_httpHttpStatusCode *ExpectationFailed __attribute__((swift_name("ExpectationFailed")));
+@property (readonly) KATKtor_httpHttpStatusCode *FailedDependency __attribute__((swift_name("FailedDependency")));
+@property (readonly) KATKtor_httpHttpStatusCode *Forbidden __attribute__((swift_name("Forbidden")));
+@property (readonly) KATKtor_httpHttpStatusCode *Found __attribute__((swift_name("Found")));
+@property (readonly) KATKtor_httpHttpStatusCode *GatewayTimeout __attribute__((swift_name("GatewayTimeout")));
+@property (readonly) KATKtor_httpHttpStatusCode *Gone __attribute__((swift_name("Gone")));
+@property (readonly) KATKtor_httpHttpStatusCode *InsufficientStorage __attribute__((swift_name("InsufficientStorage")));
+@property (readonly) KATKtor_httpHttpStatusCode *InternalServerError __attribute__((swift_name("InternalServerError")));
+@property (readonly) KATKtor_httpHttpStatusCode *LengthRequired __attribute__((swift_name("LengthRequired")));
+@property (readonly) KATKtor_httpHttpStatusCode *Locked __attribute__((swift_name("Locked")));
+@property (readonly) KATKtor_httpHttpStatusCode *MethodNotAllowed __attribute__((swift_name("MethodNotAllowed")));
+@property (readonly) KATKtor_httpHttpStatusCode *MovedPermanently __attribute__((swift_name("MovedPermanently")));
+@property (readonly) KATKtor_httpHttpStatusCode *MultiStatus __attribute__((swift_name("MultiStatus")));
+@property (readonly) KATKtor_httpHttpStatusCode *MultipleChoices __attribute__((swift_name("MultipleChoices")));
+@property (readonly) KATKtor_httpHttpStatusCode *NoContent __attribute__((swift_name("NoContent")));
+@property (readonly) KATKtor_httpHttpStatusCode *NonAuthoritativeInformation __attribute__((swift_name("NonAuthoritativeInformation")));
+@property (readonly) KATKtor_httpHttpStatusCode *NotAcceptable __attribute__((swift_name("NotAcceptable")));
+@property (readonly) KATKtor_httpHttpStatusCode *NotFound __attribute__((swift_name("NotFound")));
+@property (readonly) KATKtor_httpHttpStatusCode *NotImplemented __attribute__((swift_name("NotImplemented")));
+@property (readonly) KATKtor_httpHttpStatusCode *NotModified __attribute__((swift_name("NotModified")));
+@property (readonly) KATKtor_httpHttpStatusCode *OK __attribute__((swift_name("OK")));
+@property (readonly) KATKtor_httpHttpStatusCode *PartialContent __attribute__((swift_name("PartialContent")));
+@property (readonly) KATKtor_httpHttpStatusCode *PayloadTooLarge __attribute__((swift_name("PayloadTooLarge")));
+@property (readonly) KATKtor_httpHttpStatusCode *PaymentRequired __attribute__((swift_name("PaymentRequired")));
+@property (readonly) KATKtor_httpHttpStatusCode *PermanentRedirect __attribute__((swift_name("PermanentRedirect")));
+@property (readonly) KATKtor_httpHttpStatusCode *PreconditionFailed __attribute__((swift_name("PreconditionFailed")));
+@property (readonly) KATKtor_httpHttpStatusCode *Processing __attribute__((swift_name("Processing")));
+@property (readonly) KATKtor_httpHttpStatusCode *ProxyAuthenticationRequired __attribute__((swift_name("ProxyAuthenticationRequired")));
+@property (readonly) KATKtor_httpHttpStatusCode *RequestHeaderFieldTooLarge __attribute__((swift_name("RequestHeaderFieldTooLarge")));
+@property (readonly) KATKtor_httpHttpStatusCode *RequestTimeout __attribute__((swift_name("RequestTimeout")));
+@property (readonly) KATKtor_httpHttpStatusCode *RequestURITooLong __attribute__((swift_name("RequestURITooLong")));
+@property (readonly) KATKtor_httpHttpStatusCode *RequestedRangeNotSatisfiable __attribute__((swift_name("RequestedRangeNotSatisfiable")));
+@property (readonly) KATKtor_httpHttpStatusCode *ResetContent __attribute__((swift_name("ResetContent")));
+@property (readonly) KATKtor_httpHttpStatusCode *SeeOther __attribute__((swift_name("SeeOther")));
+@property (readonly) KATKtor_httpHttpStatusCode *ServiceUnavailable __attribute__((swift_name("ServiceUnavailable")));
+@property (readonly) KATKtor_httpHttpStatusCode *SwitchProxy __attribute__((swift_name("SwitchProxy")));
+@property (readonly) KATKtor_httpHttpStatusCode *SwitchingProtocols __attribute__((swift_name("SwitchingProtocols")));
+@property (readonly) KATKtor_httpHttpStatusCode *TemporaryRedirect __attribute__((swift_name("TemporaryRedirect")));
+@property (readonly) KATKtor_httpHttpStatusCode *TooManyRequests __attribute__((swift_name("TooManyRequests")));
+@property (readonly) KATKtor_httpHttpStatusCode *Unauthorized __attribute__((swift_name("Unauthorized")));
+@property (readonly) KATKtor_httpHttpStatusCode *UnprocessableEntity __attribute__((swift_name("UnprocessableEntity")));
+@property (readonly) KATKtor_httpHttpStatusCode *UnsupportedMediaType __attribute__((swift_name("UnsupportedMediaType")));
+@property (readonly) KATKtor_httpHttpStatusCode *UpgradeRequired __attribute__((swift_name("UpgradeRequired")));
+@property (readonly) KATKtor_httpHttpStatusCode *UseProxy __attribute__((swift_name("UseProxy")));
+@property (readonly) KATKtor_httpHttpStatusCode *VariantAlsoNegotiates __attribute__((swift_name("VariantAlsoNegotiates")));
+@property (readonly) KATKtor_httpHttpStatusCode *VersionNotSupported __attribute__((swift_name("VersionNotSupported")));
+@property (readonly) NSArray<KATKtor_httpHttpStatusCode *> *allStatusCodes __attribute__((swift_name("allStatusCodes")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_utilsGMTDate.Companion")))
+@interface KATKtor_utilsGMTDateCompanion : KATBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) KATKtor_utilsGMTDateCompanion *shared __attribute__((swift_name("shared")));
+@property (readonly) KATKtor_utilsGMTDate *START __attribute__((swift_name("START")));
+@end;
+
+__attribute__((swift_name("KotlinEnum")))
+@interface KATKotlinEnum<E> : KATBase <KATKotlinComparable>
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) KATKotlinEnumCompanion *companion __attribute__((swift_name("companion")));
+- (int32_t)compareToOther:(E)other __attribute__((swift_name("compareTo(other:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) KATKotlinx_coroutines_coreLockFreeLinkedListNode *affected __attribute__((swift_name("affected")));
-@property (readonly) KATKotlinx_coroutines_coreAtomicOp<id> *atomicOp __attribute__((swift_name("atomicOp")));
-@property (readonly) KATKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc *desc __attribute__((swift_name("desc")));
-@property (readonly) KATKotlinx_coroutines_coreLockFreeLinkedListNode *next __attribute__((swift_name("next")));
+@property (readonly) NSString *name __attribute__((swift_name("name")));
+@property (readonly) int32_t ordinal __attribute__((swift_name("ordinal")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_utilsWeekDay")))
+@interface KATKtor_utilsWeekDay : KATKotlinEnum<KATKtor_utilsWeekDay *>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly, getter=companion) KATKtor_utilsWeekDayCompanion *companion __attribute__((swift_name("companion")));
+@property (class, readonly) KATKtor_utilsWeekDay *monday __attribute__((swift_name("monday")));
+@property (class, readonly) KATKtor_utilsWeekDay *tuesday __attribute__((swift_name("tuesday")));
+@property (class, readonly) KATKtor_utilsWeekDay *wednesday __attribute__((swift_name("wednesday")));
+@property (class, readonly) KATKtor_utilsWeekDay *thursday __attribute__((swift_name("thursday")));
+@property (class, readonly) KATKtor_utilsWeekDay *friday __attribute__((swift_name("friday")));
+@property (class, readonly) KATKtor_utilsWeekDay *saturday __attribute__((swift_name("saturday")));
+@property (class, readonly) KATKtor_utilsWeekDay *sunday __attribute__((swift_name("sunday")));
++ (KATKotlinArray<KATKtor_utilsWeekDay *> *)values __attribute__((swift_name("values()")));
+@property (readonly) NSString *value __attribute__((swift_name("value")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_utilsMonth")))
+@interface KATKtor_utilsMonth : KATKotlinEnum<KATKtor_utilsMonth *>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly, getter=companion) KATKtor_utilsMonthCompanion *companion __attribute__((swift_name("companion")));
+@property (class, readonly) KATKtor_utilsMonth *january __attribute__((swift_name("january")));
+@property (class, readonly) KATKtor_utilsMonth *february __attribute__((swift_name("february")));
+@property (class, readonly) KATKtor_utilsMonth *march __attribute__((swift_name("march")));
+@property (class, readonly) KATKtor_utilsMonth *april __attribute__((swift_name("april")));
+@property (class, readonly) KATKtor_utilsMonth *may __attribute__((swift_name("may")));
+@property (class, readonly) KATKtor_utilsMonth *june __attribute__((swift_name("june")));
+@property (class, readonly) KATKtor_utilsMonth *july __attribute__((swift_name("july")));
+@property (class, readonly) KATKtor_utilsMonth *august __attribute__((swift_name("august")));
+@property (class, readonly) KATKtor_utilsMonth *september __attribute__((swift_name("september")));
+@property (class, readonly) KATKtor_utilsMonth *october __attribute__((swift_name("october")));
+@property (class, readonly) KATKtor_utilsMonth *november __attribute__((swift_name("november")));
+@property (class, readonly) KATKtor_utilsMonth *december __attribute__((swift_name("december")));
++ (KATKotlinArray<KATKtor_utilsMonth *> *)values __attribute__((swift_name("values()")));
+@property (readonly) NSString *value __attribute__((swift_name("value")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_httpHttpProtocolVersion.Companion")))
+@interface KATKtor_httpHttpProtocolVersionCompanion : KATBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) KATKtor_httpHttpProtocolVersionCompanion *shared __attribute__((swift_name("shared")));
+- (KATKtor_httpHttpProtocolVersion *)fromValueName:(NSString *)name major:(int32_t)major minor:(int32_t)minor __attribute__((swift_name("fromValue(name:major:minor:)")));
+- (KATKtor_httpHttpProtocolVersion *)parseValue:(id)value __attribute__((swift_name("parse(value:)")));
+@property (readonly) KATKtor_httpHttpProtocolVersion *HTTP_1_0 __attribute__((swift_name("HTTP_1_0")));
+@property (readonly) KATKtor_httpHttpProtocolVersion *HTTP_1_1 __attribute__((swift_name("HTTP_1_1")));
+@property (readonly) KATKtor_httpHttpProtocolVersion *HTTP_2_0 __attribute__((swift_name("HTTP_2_0")));
+@property (readonly) KATKtor_httpHttpProtocolVersion *QUIC __attribute__((swift_name("QUIC")));
+@property (readonly) KATKtor_httpHttpProtocolVersion *SPDY_3 __attribute__((swift_name("SPDY_3")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -2039,59 +1912,99 @@ __attribute__((swift_name("KotlinKType")))
 @property (readonly) BOOL isMarkedNullable __attribute__((swift_name("isMarkedNullable")));
 @end;
 
-__attribute__((swift_name("Kotlinx_coroutines_coreAtomicOp")))
-@interface KATKotlinx_coroutines_coreAtomicOp<__contravariant T> : KATKotlinx_coroutines_coreOpDescriptor
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (void)completeAffected:(T _Nullable)affected failure:(id _Nullable)failure __attribute__((swift_name("complete(affected:failure:)")));
-- (id _Nullable)decideDecision:(id _Nullable)decision __attribute__((swift_name("decide(decision:)")));
-- (id _Nullable)performAffected:(id _Nullable)affected __attribute__((swift_name("perform(affected:)")));
-- (id _Nullable)prepareAffected:(T _Nullable)affected __attribute__((swift_name("prepare(affected:)")));
-@property (readonly) KATKotlinx_coroutines_coreAtomicOp<id> *atomicOp __attribute__((swift_name("atomicOp")));
-@property (readonly) id _Nullable consensus __attribute__((swift_name("consensus")));
-@property (readonly) BOOL isDecided __attribute__((swift_name("isDecided")));
-@property (readonly) int64_t opSequence __attribute__((swift_name("opSequence")));
-@end;
-
-__attribute__((swift_name("Kotlinx_coroutines_coreLockFreeLinkedListNode")))
-@interface KATKotlinx_coroutines_coreLockFreeLinkedListNode : KATBase
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (void)addLastNode:(KATKotlinx_coroutines_coreLockFreeLinkedListNode *)node __attribute__((swift_name("addLast(node:)")));
-- (BOOL)addLastIfNode:(KATKotlinx_coroutines_coreLockFreeLinkedListNode *)node condition:(KATBoolean *(^)(void))condition __attribute__((swift_name("addLastIf(node:condition:)")));
-- (BOOL)addLastIfPrevNode:(KATKotlinx_coroutines_coreLockFreeLinkedListNode *)node predicate:(KATBoolean *(^)(KATKotlinx_coroutines_coreLockFreeLinkedListNode *))predicate __attribute__((swift_name("addLastIfPrev(node:predicate:)")));
-- (BOOL)addLastIfPrevAndIfNode:(KATKotlinx_coroutines_coreLockFreeLinkedListNode *)node predicate:(KATBoolean *(^)(KATKotlinx_coroutines_coreLockFreeLinkedListNode *))predicate condition:(KATBoolean *(^)(void))condition __attribute__((swift_name("addLastIfPrevAndIf(node:predicate:condition:)")));
-- (BOOL)addOneIfEmptyNode:(KATKotlinx_coroutines_coreLockFreeLinkedListNode *)node __attribute__((swift_name("addOneIfEmpty(node:)")));
-- (KATKotlinx_coroutines_coreLockFreeLinkedListNodeAddLastDesc<KATKotlinx_coroutines_coreLockFreeLinkedListNode *> *)describeAddLastNode:(KATKotlinx_coroutines_coreLockFreeLinkedListNode *)node __attribute__((swift_name("describeAddLast(node:)")));
-- (KATKotlinx_coroutines_coreLockFreeLinkedListNodeRemoveFirstDesc<KATKotlinx_coroutines_coreLockFreeLinkedListNode *> *)describeRemoveFirst __attribute__((swift_name("describeRemoveFirst()")));
-- (void)helpRemove __attribute__((swift_name("helpRemove()")));
-- (KATKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable)nextIfRemoved __attribute__((swift_name("nextIfRemoved()")));
-- (BOOL)remove __attribute__((swift_name("remove()")));
-- (id _Nullable)removeFirstIfIsInstanceOfOrPeekIfPredicate:(KATBoolean *(^)(id _Nullable))predicate __attribute__((swift_name("removeFirstIfIsInstanceOfOrPeekIf(predicate:)")));
-- (KATKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable)removeFirstOrNull __attribute__((swift_name("removeFirstOrNull()")));
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_httpHeaderValueParam")))
+@interface KATKtor_httpHeaderValueParam : KATBase
+- (instancetype)initWithName:(NSString *)name value:(NSString *)value __attribute__((swift_name("init(name:value:)"))) __attribute__((objc_designated_initializer));
+- (NSString *)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
+- (NSString *)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
+- (KATKtor_httpHeaderValueParam *)doCopyName:(NSString *)name value:(NSString *)value __attribute__((swift_name("doCopy(name:value:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) BOOL isRemoved __attribute__((swift_name("isRemoved")));
-@property (readonly, getter=next_) id next __attribute__((swift_name("next")));
-@property (readonly) KATKotlinx_coroutines_coreLockFreeLinkedListNode *nextNode __attribute__((swift_name("nextNode")));
-@property (readonly) KATKotlinx_coroutines_coreLockFreeLinkedListNode *prevNode __attribute__((swift_name("prevNode")));
+@property (readonly) NSString *name __attribute__((swift_name("name")));
+@property (readonly) NSString *value __attribute__((swift_name("value")));
 @end;
 
-__attribute__((swift_name("Kotlinx_coroutines_coreLockFreeLinkedListNode.AbstractAtomicDesc")))
-@interface KATKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc : KATKotlinx_coroutines_coreAtomicDesc
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (void)completeOp:(KATKotlinx_coroutines_coreAtomicOp<id> *)op failure:(id _Nullable)failure __attribute__((swift_name("complete(op:failure:)")));
-- (id _Nullable)failureAffected:(KATKotlinx_coroutines_coreLockFreeLinkedListNode *)affected __attribute__((swift_name("failure(affected:)")));
-- (void)finishOnSuccessAffected:(KATKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(KATKotlinx_coroutines_coreLockFreeLinkedListNode *)next __attribute__((swift_name("finishOnSuccess(affected:next:)")));
-- (void)finishPreparePrepareOp:(KATKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp *)prepareOp __attribute__((swift_name("finishPrepare(prepareOp:)")));
-- (id _Nullable)onPreparePrepareOp:(KATKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp *)prepareOp __attribute__((swift_name("onPrepare(prepareOp:)")));
-- (void)onRemovedAffected:(KATKotlinx_coroutines_coreLockFreeLinkedListNode *)affected __attribute__((swift_name("onRemoved(affected:)")));
-- (id _Nullable)prepareOp:(KATKotlinx_coroutines_coreAtomicOp<id> *)op __attribute__((swift_name("prepare(op:)")));
-- (BOOL)retryAffected:(KATKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(id)next __attribute__((swift_name("retry(affected:next:)")));
-- (KATKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable)takeAffectedNodeOp:(KATKotlinx_coroutines_coreOpDescriptor *)op __attribute__((swift_name("takeAffectedNode(op:)")));
-- (id)updatedNextAffected:(KATKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(KATKotlinx_coroutines_coreLockFreeLinkedListNode *)next __attribute__((swift_name("updatedNext(affected:next:)")));
-@property (readonly) KATKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable affectedNode __attribute__((swift_name("affectedNode")));
-@property (readonly) KATKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable originalNext __attribute__((swift_name("originalNext")));
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_httpHeaderValueWithParameters.Companion")))
+@interface KATKtor_httpHeaderValueWithParametersCompanion : KATBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) KATKtor_httpHeaderValueWithParametersCompanion *shared __attribute__((swift_name("shared")));
+- (id _Nullable)parseValue:(NSString *)value init:(id _Nullable (^)(NSString *, NSArray<KATKtor_httpHeaderValueParam *> *))init __attribute__((swift_name("parse(value:init:)")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_httpContentType.Companion")))
+@interface KATKtor_httpContentTypeCompanion : KATBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) KATKtor_httpContentTypeCompanion *shared __attribute__((swift_name("shared")));
+- (KATKtor_httpContentType *)parseValue:(NSString *)value __attribute__((swift_name("parse(value:)")));
+@property (readonly) KATKtor_httpContentType *Any __attribute__((swift_name("Any")));
+@end;
+
+__attribute__((swift_name("Kotlinx_coroutines_coreParentJob")))
+@protocol KATKotlinx_coroutines_coreParentJob <KATKotlinx_coroutines_coreJob>
+@required
+- (KATKotlinCancellationException *)getChildJobCancellationCause __attribute__((swift_name("getChildJobCancellationCause()")));
+@end;
+
+__attribute__((swift_name("Kotlinx_coroutines_coreSelectInstance")))
+@protocol KATKotlinx_coroutines_coreSelectInstance
+@required
+- (void)disposeOnSelectHandle:(id<KATKotlinx_coroutines_coreDisposableHandle>)handle __attribute__((swift_name("disposeOnSelect(handle:)")));
+- (id _Nullable)performAtomicTrySelectDesc:(KATKotlinx_coroutines_coreAtomicDesc *)desc __attribute__((swift_name("performAtomicTrySelect(desc:)")));
+- (void)resumeSelectWithExceptionException:(KATKotlinThrowable *)exception __attribute__((swift_name("resumeSelectWithException(exception:)")));
+- (BOOL)trySelect __attribute__((swift_name("trySelect()")));
+- (id _Nullable)trySelectOtherOtherOp:(KATKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp * _Nullable)otherOp __attribute__((swift_name("trySelectOther(otherOp:)")));
+@property (readonly) id<KATKotlinContinuation> completion __attribute__((swift_name("completion")));
+@property (readonly) BOOL isSelected __attribute__((swift_name("isSelected")));
+@end;
+
+__attribute__((swift_name("KotlinSuspendFunction0")))
+@protocol KATKotlinSuspendFunction0 <KATKotlinFunction>
+@required
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)invokeWithCompletionHandler:(void (^)(id _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("invoke(completionHandler:)")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("KotlinEnumCompanion")))
+@interface KATKotlinEnumCompanion : KATBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) KATKotlinEnumCompanion *shared __attribute__((swift_name("shared")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_utilsWeekDay.Companion")))
+@interface KATKtor_utilsWeekDayCompanion : KATBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) KATKtor_utilsWeekDayCompanion *shared __attribute__((swift_name("shared")));
+- (KATKtor_utilsWeekDay *)fromOrdinal:(int32_t)ordinal __attribute__((swift_name("from(ordinal:)")));
+- (KATKtor_utilsWeekDay *)fromValue:(NSString *)value __attribute__((swift_name("from(value:)")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_utilsMonth.Companion")))
+@interface KATKtor_utilsMonthCompanion : KATBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) KATKtor_utilsMonthCompanion *shared __attribute__((swift_name("shared")));
+- (KATKtor_utilsMonth *)fromOrdinal:(int32_t)ordinal __attribute__((swift_name("from(ordinal:)")));
+- (KATKtor_utilsMonth *)fromValue:(NSString *)value __attribute__((swift_name("from(value:)")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -2178,6 +2091,120 @@ __attribute__((swift_name("KotlinKTypeProjection")))
 @property (readonly) KATKotlinKVariance * _Nullable variance __attribute__((swift_name("variance")));
 @end;
 
+__attribute__((swift_name("Kotlinx_coroutines_coreAtomicDesc")))
+@interface KATKotlinx_coroutines_coreAtomicDesc : KATBase
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (void)completeOp:(KATKotlinx_coroutines_coreAtomicOp<id> *)op failure:(id _Nullable)failure __attribute__((swift_name("complete(op:failure:)")));
+- (id _Nullable)prepareOp:(KATKotlinx_coroutines_coreAtomicOp<id> *)op __attribute__((swift_name("prepare(op:)")));
+@property KATKotlinx_coroutines_coreAtomicOp<id> *atomicOp __attribute__((swift_name("atomicOp")));
+@end;
+
+__attribute__((swift_name("Kotlinx_coroutines_coreOpDescriptor")))
+@interface KATKotlinx_coroutines_coreOpDescriptor : KATBase
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (BOOL)isEarlierThanThat:(KATKotlinx_coroutines_coreOpDescriptor *)that __attribute__((swift_name("isEarlierThan(that:)")));
+- (id _Nullable)performAffected:(id _Nullable)affected __attribute__((swift_name("perform(affected:)")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) KATKotlinx_coroutines_coreAtomicOp<id> * _Nullable atomicOp __attribute__((swift_name("atomicOp")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Kotlinx_coroutines_coreLockFreeLinkedListNode.PrepareOp")))
+@interface KATKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp : KATKotlinx_coroutines_coreOpDescriptor
+- (instancetype)initWithAffected:(KATKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(KATKotlinx_coroutines_coreLockFreeLinkedListNode *)next desc:(KATKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc *)desc __attribute__((swift_name("init(affected:next:desc:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
++ (instancetype)new __attribute__((unavailable));
+- (void)finishPrepare __attribute__((swift_name("finishPrepare()")));
+- (id _Nullable)performAffected:(id _Nullable)affected __attribute__((swift_name("perform(affected:)")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) KATKotlinx_coroutines_coreLockFreeLinkedListNode *affected __attribute__((swift_name("affected")));
+@property (readonly) KATKotlinx_coroutines_coreAtomicOp<id> *atomicOp __attribute__((swift_name("atomicOp")));
+@property (readonly) KATKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc *desc __attribute__((swift_name("desc")));
+@property (readonly) KATKotlinx_coroutines_coreLockFreeLinkedListNode *next __attribute__((swift_name("next")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("KotlinKVariance")))
+@interface KATKotlinKVariance : KATKotlinEnum<KATKotlinKVariance *>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly) KATKotlinKVariance *invariant __attribute__((swift_name("invariant")));
+@property (class, readonly) KATKotlinKVariance *in __attribute__((swift_name("in")));
+@property (class, readonly) KATKotlinKVariance *out __attribute__((swift_name("out")));
++ (KATKotlinArray<KATKotlinKVariance *> *)values __attribute__((swift_name("values()")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("KotlinKTypeProjection.Companion")))
+@interface KATKotlinKTypeProjectionCompanion : KATBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) KATKotlinKTypeProjectionCompanion *shared __attribute__((swift_name("shared")));
+- (KATKotlinKTypeProjection *)contravariantType:(id<KATKotlinKType>)type __attribute__((swift_name("contravariant(type:)")));
+- (KATKotlinKTypeProjection *)covariantType:(id<KATKotlinKType>)type __attribute__((swift_name("covariant(type:)")));
+- (KATKotlinKTypeProjection *)invariantType:(id<KATKotlinKType>)type __attribute__((swift_name("invariant(type:)")));
+@property (readonly) KATKotlinKTypeProjection *STAR __attribute__((swift_name("STAR")));
+@end;
+
+__attribute__((swift_name("Kotlinx_coroutines_coreAtomicOp")))
+@interface KATKotlinx_coroutines_coreAtomicOp<__contravariant T> : KATKotlinx_coroutines_coreOpDescriptor
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (void)completeAffected:(T _Nullable)affected failure:(id _Nullable)failure __attribute__((swift_name("complete(affected:failure:)")));
+- (id _Nullable)decideDecision:(id _Nullable)decision __attribute__((swift_name("decide(decision:)")));
+- (id _Nullable)performAffected:(id _Nullable)affected __attribute__((swift_name("perform(affected:)")));
+- (id _Nullable)prepareAffected:(T _Nullable)affected __attribute__((swift_name("prepare(affected:)")));
+@property (readonly) KATKotlinx_coroutines_coreAtomicOp<id> *atomicOp __attribute__((swift_name("atomicOp")));
+@property (readonly) id _Nullable consensus __attribute__((swift_name("consensus")));
+@property (readonly) BOOL isDecided __attribute__((swift_name("isDecided")));
+@property (readonly) int64_t opSequence __attribute__((swift_name("opSequence")));
+@end;
+
+__attribute__((swift_name("Kotlinx_coroutines_coreLockFreeLinkedListNode")))
+@interface KATKotlinx_coroutines_coreLockFreeLinkedListNode : KATBase
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (void)addLastNode:(KATKotlinx_coroutines_coreLockFreeLinkedListNode *)node __attribute__((swift_name("addLast(node:)")));
+- (BOOL)addLastIfNode:(KATKotlinx_coroutines_coreLockFreeLinkedListNode *)node condition:(KATBoolean *(^)(void))condition __attribute__((swift_name("addLastIf(node:condition:)")));
+- (BOOL)addLastIfPrevNode:(KATKotlinx_coroutines_coreLockFreeLinkedListNode *)node predicate:(KATBoolean *(^)(KATKotlinx_coroutines_coreLockFreeLinkedListNode *))predicate __attribute__((swift_name("addLastIfPrev(node:predicate:)")));
+- (BOOL)addLastIfPrevAndIfNode:(KATKotlinx_coroutines_coreLockFreeLinkedListNode *)node predicate:(KATBoolean *(^)(KATKotlinx_coroutines_coreLockFreeLinkedListNode *))predicate condition:(KATBoolean *(^)(void))condition __attribute__((swift_name("addLastIfPrevAndIf(node:predicate:condition:)")));
+- (BOOL)addOneIfEmptyNode:(KATKotlinx_coroutines_coreLockFreeLinkedListNode *)node __attribute__((swift_name("addOneIfEmpty(node:)")));
+- (KATKotlinx_coroutines_coreLockFreeLinkedListNodeAddLastDesc<KATKotlinx_coroutines_coreLockFreeLinkedListNode *> *)describeAddLastNode:(KATKotlinx_coroutines_coreLockFreeLinkedListNode *)node __attribute__((swift_name("describeAddLast(node:)")));
+- (KATKotlinx_coroutines_coreLockFreeLinkedListNodeRemoveFirstDesc<KATKotlinx_coroutines_coreLockFreeLinkedListNode *> *)describeRemoveFirst __attribute__((swift_name("describeRemoveFirst()")));
+- (void)helpRemove __attribute__((swift_name("helpRemove()")));
+- (KATKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable)nextIfRemoved __attribute__((swift_name("nextIfRemoved()")));
+- (BOOL)remove __attribute__((swift_name("remove()")));
+- (id _Nullable)removeFirstIfIsInstanceOfOrPeekIfPredicate:(KATBoolean *(^)(id _Nullable))predicate __attribute__((swift_name("removeFirstIfIsInstanceOfOrPeekIf(predicate:)")));
+- (KATKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable)removeFirstOrNull __attribute__((swift_name("removeFirstOrNull()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) BOOL isRemoved __attribute__((swift_name("isRemoved")));
+@property (readonly, getter=next_) id next __attribute__((swift_name("next")));
+@property (readonly) KATKotlinx_coroutines_coreLockFreeLinkedListNode *nextNode __attribute__((swift_name("nextNode")));
+@property (readonly) KATKotlinx_coroutines_coreLockFreeLinkedListNode *prevNode __attribute__((swift_name("prevNode")));
+@end;
+
+__attribute__((swift_name("Kotlinx_coroutines_coreLockFreeLinkedListNode.AbstractAtomicDesc")))
+@interface KATKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc : KATKotlinx_coroutines_coreAtomicDesc
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (void)completeOp:(KATKotlinx_coroutines_coreAtomicOp<id> *)op failure:(id _Nullable)failure __attribute__((swift_name("complete(op:failure:)")));
+- (id _Nullable)failureAffected:(KATKotlinx_coroutines_coreLockFreeLinkedListNode *)affected __attribute__((swift_name("failure(affected:)")));
+- (void)finishOnSuccessAffected:(KATKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(KATKotlinx_coroutines_coreLockFreeLinkedListNode *)next __attribute__((swift_name("finishOnSuccess(affected:next:)")));
+- (void)finishPreparePrepareOp:(KATKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp *)prepareOp __attribute__((swift_name("finishPrepare(prepareOp:)")));
+- (id _Nullable)onPreparePrepareOp:(KATKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp *)prepareOp __attribute__((swift_name("onPrepare(prepareOp:)")));
+- (void)onRemovedAffected:(KATKotlinx_coroutines_coreLockFreeLinkedListNode *)affected __attribute__((swift_name("onRemoved(affected:)")));
+- (id _Nullable)prepareOp:(KATKotlinx_coroutines_coreAtomicOp<id> *)op __attribute__((swift_name("prepare(op:)")));
+- (BOOL)retryAffected:(KATKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(id)next __attribute__((swift_name("retry(affected:next:)")));
+- (KATKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable)takeAffectedNodeOp:(KATKotlinx_coroutines_coreOpDescriptor *)op __attribute__((swift_name("takeAffectedNode(op:)")));
+- (id)updatedNextAffected:(KATKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(KATKotlinx_coroutines_coreLockFreeLinkedListNode *)next __attribute__((swift_name("updatedNext(affected:next:)")));
+@property (readonly) KATKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable affectedNode __attribute__((swift_name("affectedNode")));
+@property (readonly) KATKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable originalNext __attribute__((swift_name("originalNext")));
+@end;
+
 __attribute__((swift_name("Kotlinx_coroutines_coreLockFreeLinkedListNodeAddLastDesc")))
 @interface KATKotlinx_coroutines_coreLockFreeLinkedListNodeAddLastDesc<T> : KATKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc
 - (instancetype)initWithQueue:(KATKotlinx_coroutines_coreLockFreeLinkedListNode *)queue node:(T)node __attribute__((swift_name("init(queue:node:)"))) __attribute__((objc_designated_initializer));
@@ -2209,31 +2236,6 @@ __attribute__((swift_name("Kotlinx_coroutines_coreLockFreeLinkedListNodeRemoveFi
 @property (readonly) KATKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable originalNext __attribute__((swift_name("originalNext")));
 @property (readonly) KATKotlinx_coroutines_coreLockFreeLinkedListNode *queue __attribute__((swift_name("queue")));
 @property (readonly) T _Nullable result __attribute__((swift_name("result")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("KotlinKVariance")))
-@interface KATKotlinKVariance : KATKotlinEnum<KATKotlinKVariance *>
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (class, readonly) KATKotlinKVariance *invariant __attribute__((swift_name("invariant")));
-@property (class, readonly) KATKotlinKVariance *in __attribute__((swift_name("in")));
-@property (class, readonly) KATKotlinKVariance *out __attribute__((swift_name("out")));
-+ (KATKotlinArray<KATKotlinKVariance *> *)values __attribute__((swift_name("values()")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("KotlinKTypeProjection.Companion")))
-@interface KATKotlinKTypeProjectionCompanion : KATBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) KATKotlinKTypeProjectionCompanion *shared __attribute__((swift_name("shared")));
-- (KATKotlinKTypeProjection *)contravariantType:(id<KATKotlinKType>)type __attribute__((swift_name("contravariant(type:)")));
-- (KATKotlinKTypeProjection *)covariantType:(id<KATKotlinKType>)type __attribute__((swift_name("covariant(type:)")));
-- (KATKotlinKTypeProjection *)invariantType:(id<KATKotlinKType>)type __attribute__((swift_name("invariant(type:)")));
-@property (readonly) KATKotlinKTypeProjection *STAR __attribute__((swift_name("STAR")));
 @end;
 
 #pragma pop_macro("_Nullable_result")
